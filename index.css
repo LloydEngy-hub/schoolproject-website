@@ -28,20 +28,16 @@ body {
 
 /* ================================================ */
 /* mobile view */
-/* section container */
-.section_container {
-  padding: 0 0.4rem;
-  padding-top: 5.5rem;
-}
 
 /* ================================================ */
 /* nav container */
 .nav_container {
   top: 0;
   width: 97%;
+  z-index: 999;
   position: fixed;
   overflow: hidden;
-  padding: 0.5rem 0;
+  padding: 0.5rem 0.4rem;
   height: calc(50px + 1rem);
   transition: 1s all linear;
 }
@@ -79,6 +75,10 @@ body {
   gap: 2rem;
   display: flex;
   align-items: center;
+}
+
+.nav_bg {
+  background-color: white;
 }
 
 /* ================================================ */
@@ -122,10 +122,80 @@ body {
   background-color: black;
 }
 
+.nav_bg .link {
+  color: black;
+}
+
 /* ================================================ */
 /* desktop nav  */
 .desktop_nav {
   display: none;
+}
+
+/* ================================================ */
+/* landing page  */
+.landing_page {
+  min-height: 100vh;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.027),
+      rgba(0, 0, 0, 0.63),
+      black
+    ),
+    url("./src/Assets/Images/Landing-Page.bg.jpeg") center/cover, no-repeat;
+}
+
+/* ================================================ */
+/* background video , bg dark color  */
+:is(.background_video, .bg_dark_color) {
+  display: none;
+}
+
+/* ================================================ */
+/* welcome content  */
+.welcome_content {
+  bottom: 5%;
+  z-index: 3;
+  width: 96%;
+  gap: 0.6rem;
+  display: flex;
+  color: white;
+  position: absolute;
+  flex-direction: column;
+}
+
+/* ================================================ */
+/* intro title  */
+.intro_title {
+  font-size: 1.4rem;
+}
+
+/* ================================================ */
+/* intro info  */
+.intro_info {
+  font-size: 1rem;
+}
+
+/* ================================================ */
+/* enroll btn  */
+.enroll_btn {
+  width: 40%;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  background-color: aqua;
+}
+
+.enroll_btn:hover {
+  background-color: #0fddcc;
 }
 
 /* ================================================= */
@@ -161,8 +231,40 @@ body {
     font-size: 1.4rem;
   }
 
+  /* ============================================== */
+  /* link */
   .link {
     font-size: 1.5rem;
+  }
+
+  /* ================================================ */
+  /* landing page  */
+  .landing_page {
+    min-height: 70vh;
+  }
+
+  /* ================================================ */
+  /* welcome content  */
+  .welcome_content {
+    width: 92%;
+  }
+
+  /* ================================================ */
+  /* intro title  */
+  .intro_title {
+    font-size: 2rem;
+  }
+
+  /* ================================================ */
+  /* intro info  */
+  .intro_info {
+    font-size: 1.3rem;
+  }
+
+  /* ================================================ */
+  /* enroll btn  */
+  .enroll_btn {
+    font-size: 1.2rem;
   }
 }
 
@@ -206,7 +308,69 @@ body {
   /* link   */
   .link {
     gap: 0.5rem;
+    color: white;
     font-size: 1rem;
     padding: 0.5rem 1rem;
+  }
+
+  /* ================================================ */
+  /* landing page  */
+  .landing_page {
+    height: 110vh;
+  }
+
+  /* ================================================ */
+  /* bg dark color  */
+  .bg_dark_color {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.491),
+      rgba(0, 0, 0, 0.795),
+      black
+    );
+  }
+
+  /* ================================================ */
+  /* background video  */
+  .background_video {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+  }
+
+  /* ================================================ */
+  /* welcome content  */
+  .welcome_content {
+    top: 30%;
+    left: 2%;
+    width: 70%;
+    text-shadow: 2px 2px 3px black;
+    height: max-content;
+  }
+
+  /* ================================================ */
+  /* intro title  */
+  .intro_title {
+    font-size: 2.5rem;
+  }
+
+  /* ================================================ */
+  /* intro info  */
+  .intro_info {
+    font-size: 1.2rem;
+  }
+
+  /* ================================================ */
+  /* enroll btn  */
+  .enroll_btn {
+    width: 20%;
+    font-size: 1rem;
+    padding: 1rem 0;
+    text-shadow: none;
   }
 }

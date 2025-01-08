@@ -34,9 +34,19 @@ nav_toggle_btn.addEventListener("click", (e) => {
   const navInitialHeight = mobile_nav.getBoundingClientRect().height;
 
   if (currentIcon.classList.contains("fa-bars")) {
+    OpenFunction(nav_container, "nav_bg");
     nav_container.style.height = `calc(${height}px + 1rem)`;
   } else {
+    CloseFunction(nav_container, "nav_bg");
     nav_container.style.height = `calc(${navInitialHeight}px + 1rem)`;
-    console.log(navInitialHeight);
   }
+});
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 40) {
+    OpenFunction(nav_container, "nav_bg");
+  } else {
+    CloseFunction(nav_container, "nav_bg");
+  }
+  console.log(window.scrollY);
 });
