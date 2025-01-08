@@ -1,7 +1,212 @@
+/* ============================================== */
+/* General styling.......... */
+
 *,
 *::after,
 *::before {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+img {
+  display: block;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Roboto", serif;
+}
+
+/* ================================================ */
+/* mobile view */
+/* section container */
+.section_container {
+  padding: 0 0.4rem;
+  padding-top: 5.5rem;
+}
+
+/* ================================================ */
+/* nav container */
+.nav_container {
+  top: 0;
+  width: 97%;
+  position: fixed;
+  overflow: hidden;
+  padding: 0.5rem 0;
+  height: calc(50px + 1rem);
+  transition: 1s all linear;
+}
+
+/* ================================================ */
+/* mobile nav container */
+.mobile_nav_container {
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ================================================ */
+/* mobile nav  */
+.mobile_nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* ================================================ */
+/* logo  */
+.logo {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 10px;
+  background-color: white;
+  border: 2px solid black;
+}
+
+/* ================================================ */
+/* nav icon container  */
+.nav_icon_container {
+  gap: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+/* ================================================ */
+/* nav icon  */
+.nav_icon {
+  cursor: pointer;
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+
+/* ================================================ */
+/* nav cancel icon  */
+.fa-x {
+  color: red;
+  display: none;
+}
+
+/* ================================================ */
+/* link container  */
+.link_container {
+  gap: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ================================================ */
+/* link  */
+.link {
+  gap: 1rem;
+  display: flex;
+  padding: 1rem 0;
+  cursor: pointer;
+  font-size: 1.15rem;
+  align-items: center;
+  transition: 1s all linear;
+  text-transform: capitalize;
+}
+
+.link:hover {
+  color: white;
+  background-color: black;
+}
+
+/* ================================================ */
+/* desktop nav  */
+.desktop_nav {
+  display: none;
+}
+
+/* ================================================= */
+/* style involving javascript for mobile view */
+
+.toggle_nav .fa-bars {
+  display: none;
+}
+
+.toggle_nav .fa-x {
+  display: block;
+}
+
+/* ====================================================== */
+/* Ipad view */
+@media screen and (width >= 764px) {
+  /* ============================================== */
+  /* nav container */
+  .nav_container {
+    height: calc(60px + 1rem);
+  }
+
+  /* ============================================== */
+  /* logo */
+  .logo {
+    width: 60px;
+    height: 60px;
+  }
+
+  /* ============================================== */
+  /* nav icon */
+  .nav_icon {
+    font-size: 1.4rem;
+  }
+
+  .link {
+    font-size: 1.5rem;
+  }
+}
+
+/* ====================================================== */
+/* Desktop view */
+@media screen and (width >= 1023px) {
+  /* ================================================ */
+  /* mobile nav container */
+  .mobile_nav_container {
+    display: none;
+  }
+
+  .nav_container {
+    left: 0;
+    padding: 0;
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    overflow: visible;
+    justify-content: center;
+  }
+
+  /* ================================================ */
+  /* desktop nav  */
+  .desktop_nav {
+    gap: 2.5rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  /* ================================================ */
+  /* link container  */
+  .link_container {
+    gap: 2rem;
+    flex-direction: row;
+  }
+
+  /* ================================================ */
+  /* link   */
+  .link {
+    gap: 0.5rem;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+  }
 }
