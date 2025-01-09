@@ -241,6 +241,8 @@ body {
 /* the profile section starts here */
 .house{
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 20px;
   margin-top: 10px;
   
@@ -253,10 +255,79 @@ body {
 .text-about p{
   margin-top:   20px;
   justify-self: center;
-  font-size: 23px;
+  font-size: 20px;
   font-family: sans-serif;
   line-height: 30px;
 }
 .text-about h2{
   font-size: 25px;
+}
+
+/* the next section starts here  */
+
+.our-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.our-text1{
+  margin-right: 60px;
+}
+
+.our-text2  {
+  border-left: 3px solid #000;
+  padding-right: 20px;
+}
+.our-text2 p{
+  margin-left: 25px;
+  justify-self: center;
+  font-family: sans-serif;
+}
+
+/* the section of services stars here  */
+
+.services{
+  margin-top: 50px;
+  border: 1px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 120px;
+  justify-content: center;
+  /* align-items: center; */
+}
+.ser-box1text{
+  border: 1px solid gray;
+  padding: 20px;
+  height: 280px;
+}
+.ser-box1big{
+  border: 1px solid gray;
+  /* padding: 30px; */
+  height: 250px;
+  width: 500px;
+  margin-right: 10px;
+  margin-top: -30px;
+}
+/* THE BACKGROUND OF SERVICES SECTION STARTS HERE */
+.ser-box1{
+  background: url(/src/Assets/Images/pics1\ \(9\).jpeg);
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.ser-box2{
+  background: url(/src/Assets/Images/bg8.jpg);
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.ser-box3{
+  background: url(/src/Assets/Images/bg5.jpg);
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
