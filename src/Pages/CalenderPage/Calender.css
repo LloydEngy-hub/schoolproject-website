@@ -81,6 +81,10 @@ body {
   align-items: center;
 }
 
+.nav_bg {
+  background-color: white;
+}
+
 /* ================================================ */
 /* nav icon  */
 .nav_icon {
@@ -118,6 +122,15 @@ body {
 }
 
 .link:hover {
+  color: white;
+  background-color: black;
+}
+
+.nav_bg .link {
+  color: black;
+}
+
+.nav_bg .link:hover {
   color: white;
   background-color: black;
 }
@@ -206,7 +219,8 @@ body {
   /* link   */
   .link {
     gap: 0.5rem;
-    font-size: 1rem;
+    font-size: 0.8rem;
     padding: 0.5rem 1rem;
   }
 }
+
