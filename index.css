@@ -630,26 +630,31 @@ body {
     position: relative;
   }
 
+  .fixed_img_container {
+    top: 0;
+    width: 98%;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+  }
+
   /* ================================================ */
   /* Fixed img*/
   .fixed_img {
-    top: 0;
     width: 100%;
-    height: 100vh;
+    margin-top: 5rem;
     object-fit: contain;
   }
 
   /* ================================================= */
   /* style involving javascript for desktop view */
   .fixed {
-    width: 50%;
+    width: 48%;
     position: fixed;
   }
   .absolute {
     bottom: 0;
     top: unset;
-    width: 100%;
-    height: 80vh;
     position: absolute;
   }
 }

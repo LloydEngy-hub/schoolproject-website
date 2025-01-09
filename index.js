@@ -51,6 +51,7 @@ const thirdBlog = document.querySelector(".thirdBlog");
 const fourthBlog = document.querySelector(".fourthBlog");
 const fifthBlog = document.querySelector(".fifthBlog");
 const landingPage = document.querySelector(".landing_page");
+const fixed_img_container = document.querySelector(".fixed_img_container");
 const transition_container = document.querySelector(".transition_container");
 
 // get total page scroll height before reaching the first blog
@@ -71,7 +72,7 @@ window.addEventListener("scroll", () => {
   // =================================================
   // blog scroll functionality
   if (window.scrollY >= webFirstTotalPartHeight) {
-    OpenFunction(fixed_img, "fixed");
+    OpenFunction(fixed_img_container, "fixed");
 
     // =============================================
     // Logic for each blog elements height
@@ -89,27 +90,27 @@ window.addEventListener("scroll", () => {
     }
 
     if (window.scrollY >= Blog2) {
-      fixed_img.src = "./src/Assets/Images/Blog2.jpeg";
+      fixed_img.src = "./src/Assets/Images/bg2.jpg";
     }
 
     if (window.scrollY >= Blog3) {
-      fixed_img.src = "./src/Assets/Images/Blog3.jpeg";
+      fixed_img.src = "./src/Assets/Images/bg8.jpg";
     }
 
     if (window.scrollY >= Blog4) {
-      fixed_img.src = "./src/Assets/Images/Blog4.jpeg";
+      fixed_img.src = "./src/Assets/Images/bg15.jpg";
     }
 
     if (window.scrollY >= Blog5) {
-      fixed_img.src = "./src/Assets/Images/Blog5.jpeg";
+      fixed_img.src = "./src/Assets/Images/bg6.jpg";
     }
     if (window.scrollY >= Blog6 - 70) {
-      CloseFunction(fixed_img, "fixed");
-      OpenFunction(fixed_img, "absolute");
+      CloseFunction(fixed_img_container, "fixed");
+      OpenFunction(fixed_img_container, "absolute");
     } else {
-      CloseFunction(fixed_img, "absolute");
+      CloseFunction(fixed_img_container, "absolute");
     }
   } else {
-    CloseFunction(fixed_img, "fixed");
+    CloseFunction(fixed_img_container, "fixed");
   }
 });
