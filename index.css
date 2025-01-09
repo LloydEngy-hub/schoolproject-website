@@ -33,7 +33,7 @@ body {
 /* nav container */
 .nav_container {
   top: 0;
-  width: 97%;
+  width: 100%;
   z-index: 999;
   position: fixed;
   overflow: hidden;
@@ -229,10 +229,114 @@ body {
 /* ================================================ */
 /* rated in */
 .rated_in {
+  color: silver;
   font-size: 0.9rem;
   font-weight: 700;
-  color: silver;
   text-transform: capitalize;
+}
+
+/* ================================================ */
+/* transition container */
+.transition_container {
+  width: 96%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  padding-block: 0.6rem;
+}
+
+/* ================================================ */
+/* transition title */
+.transition_title {
+  width: 40%;
+  font-weight: 800;
+  font-size: 0.85rem;
+  text-transform: capitalize;
+  color: rgb(109, 108, 108);
+}
+
+/* ================================================ */
+/* transiting text */
+.transiting_text {
+  width: 60%;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  background-color: rgb(209, 207, 207);
+}
+
+/* ================================================ */
+/* transiting img container */
+.transiting_img_container {
+  gap: 0.8rem;
+  display: flex;
+  animation: moveIcon 15s linear infinite;
+}
+
+/* ================================================ */
+/* transiting img */
+.transiting_img {
+  width: 180px;
+  height: 50px;
+  object-fit: cover;
+}
+
+/* ================================================ */
+/* school details blog */
+.school_details_blog {
+  width: 96%;
+  margin: auto;
+  display: flex;
+  padding-block: 2rem;
+}
+
+/* ================================================ */
+/*  blog like section */
+.blog_like_section {
+  gap: 3rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ================================================ */
+/* blog */
+.blog {
+  gap: 0.5rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ================================================ */
+/*  blog image */
+.blog_image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* ================================================ */
+/*  blog title */
+.blog_title {
+  font-size: 1.2rem;
+  padding: 0.5rem 0;
+}
+
+/* ================================================ */
+/* blog text*/
+.blog_text {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: rgb(68, 67, 67);
+  text-transform: capitalize;
+}
+
+/* ================================================ */
+/* Fixed image section*/
+.fixed_image_section {
+  display: none;
 }
 
 /* ================================================= */
@@ -316,6 +420,36 @@ body {
   /* user rate */
   .user_rate {
     font-size: 1.6rem;
+  }
+
+  /* ================================================ */
+  /* transition title */
+  .transition_title {
+    font-size: 1.1rem;
+  }
+
+  /* ================================================ */
+  /* transiting img container */
+  .transiting_img_container {
+    gap: 1.5rem;
+  }
+
+  /* ================================================ */
+  /* transiting img */
+  .transiting_img {
+    height: 70px;
+  }
+
+  /* ================================================ */
+  /*  blog title */
+  .blog_title {
+    font-size: 1.5rem;
+  }
+
+  /* ================================================ */
+  /* blog text*/
+  .blog_text {
+    font-size: 1.2rem;
   }
 }
 
@@ -446,5 +580,87 @@ body {
   /* rated in */
   .rated_in {
     font-size: 1rem;
+  }
+
+  /* ================================================ */
+  /* transition title */
+  .transition_title {
+    font-size: 1.4rem;
+  }
+
+  /* ================================================ */
+  /*  blog like section */
+  .blog_like_section {
+    width: 50%;
+    gap: 15rem;
+  }
+
+  /* ================================================ */
+  /* blog */
+  .blog {
+    width: 70%;
+    gap: 1.4rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* ================================================ */
+  /*  blog image */
+  .blog_image {
+    display: none;
+  }
+
+  /* ================================================ */
+  /*  blog title */
+  .blog_title {
+    font-size: 1.5rem;
+  }
+
+  /* ================================================ */
+  /* blog text*/
+  .blog_text {
+    font-size: 1.05rem;
+  }
+
+  /* ================================================ */
+  /* Fixed image section*/
+  .fixed_image_section {
+    width: 50%;
+    display: block;
+    position: relative;
+  }
+
+  /* ================================================ */
+  /* Fixed img*/
+  .fixed_img {
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: contain;
+  }
+
+  /* ================================================= */
+  /* style involving javascript for desktop view */
+  .fixed {
+    width: 50%;
+    position: fixed;
+  }
+  .absolute {
+    bottom: 0;
+    top: unset;
+    width: 100%;
+    height: 80vh;
+    position: absolute;
+  }
+}
+
+/* ======================================================= */
+/* animation */
+@keyframes moveIcon {
+  0% {
+    transform: translate(20%);
+  }
+  100% {
+    transform: translate(-100%);
   }
 }

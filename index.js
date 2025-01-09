@@ -42,10 +42,74 @@ nav_toggle_btn.addEventListener("click", (e) => {
   }
 });
 
+// ======================================================
+// blog scroll elements
+const fixed_img = document.querySelector(".fixed_img");
+const firstBlog = document.querySelector(".firstBlog");
+const secondBlog = document.querySelector(".secondBlog");
+const thirdBlog = document.querySelector(".thirdBlog");
+const fourthBlog = document.querySelector(".fourthBlog");
+const fifthBlog = document.querySelector(".fifthBlog");
+const landingPage = document.querySelector(".landing_page");
+const transition_container = document.querySelector(".transition_container");
+
+// get total page scroll height before reaching the first blog
+const webFirstTotalPartHeight =
+  landingPage.getBoundingClientRect().height +
+  transition_container.getBoundingClientRect().height;
+
 window.addEventListener("scroll", () => {
+  // =================================================
+  // nav scroll functionality
   if (window.scrollY > 40) {
     OpenFunction(nav_container, "nav_bg");
   } else {
     CloseFunction(nav_container, "nav_bg");
+  }
+  // ===================================================
+
+  // =================================================
+  // blog scroll functionality
+  if (window.scrollY >= webFirstTotalPartHeight) {
+    OpenFunction(fixed_img, "fixed");
+
+    // =============================================
+    // Logic for each blog elements height
+    const Blog1 =
+      webFirstTotalPartHeight + firstBlog.getBoundingClientRect().height;
+    const Blog2 = Blog1 + secondBlog.getBoundingClientRect().height;
+    const Blog3 = Blog2 + thirdBlog.getBoundingClientRect().height;
+    const Blog4 = Blog3 + fourthBlog.getBoundingClientRect().height;
+    const Blog5 = Blog4 + fifthBlog.getBoundingClientRect().height;
+    const Blog6 = Blog5 + fifthBlog.getBoundingClientRect().height;
+    // ==============================================
+
+    if (window.scrollY >= Blog1) {
+      fixed_img.src = "./src/Assets/Images/Blog1.jpeg";
+    }
+
+    if (window.scrollY >= Blog2) {
+      fixed_img.src = "./src/Assets/Images/Blog2.jpeg";
+    }
+
+    if (window.scrollY >= Blog3) {
+      fixed_img.src = "./src/Assets/Images/Blog3.jpeg";
+    }
+
+    if (window.scrollY >= Blog4) {
+      fixed_img.src = "./src/Assets/Images/Blog4.jpeg";
+    }
+
+    if (window.scrollY >= Blog5) {
+      fixed_img.src = "./src/Assets/Images/Blog5.jpeg";
+    }
+    if (window.scrollY >= Blog6 - 70) {
+      CloseFunction(fixed_img, "fixed");
+      OpenFunction(fixed_img, "absolute");
+    } else {
+      CloseFunction(fixed_img, "absolute");
+    }
+  } else {
+    CloseFunction(fixed_img, "fixed");
   }
 });
