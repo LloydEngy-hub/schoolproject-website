@@ -657,6 +657,10 @@ body {
     top: unset;
     position: absolute;
   }
+
+  .absolute .fixed_img {
+    margin-top: 0;
+  }
 }
 
 /* ======================================================= */
