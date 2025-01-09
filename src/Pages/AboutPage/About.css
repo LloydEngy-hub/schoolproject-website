@@ -230,6 +230,33 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 150px;
+  padding: 130px;
 }
 /* the about text starts here  */
+.about-txt{
+  color: #fff;
+  font-size: 25px;
+}
+
+/* the profile section starts here */
+.house{
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+  
+}
+/* the section of pic profile starts here */
+.pics img{
+  height: 350px;
+  width: 500px;
+}
+.text-about p{
+  margin-top:   20px;
+  justify-self: center;
+  font-size: 23px;
+  font-family: sans-serif;
+  line-height: 30px;
+}
+.text-about h2{
+  font-size: 25px;
+}
