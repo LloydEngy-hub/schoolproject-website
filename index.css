@@ -159,7 +159,7 @@ body {
 /* ================================================ */
 /* welcome content  */
 .welcome_content {
-  bottom: 5%;
+  top: 20%;
   z-index: 3;
   width: 96%;
   gap: 0.6rem;
@@ -196,6 +196,43 @@ body {
 
 .enroll_btn:hover {
   background-color: #0fddcc;
+}
+
+/* ================================================ */
+/* global user details container */
+.global_users_details_container {
+  bottom: 2%;
+  width: 96%;
+  gap: 0.5rem;
+  display: grid;
+  color: white;
+  position: absolute;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+/* ================================================ */
+/* users */
+.users {
+  display: flex;
+  padding: 0.4rem;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-left: 3px solid lightgray;
+}
+
+/* ================================================ */
+/* user rate */
+.user_rate {
+  font-size: 1.5rem;
+}
+
+/* ================================================ */
+/* rated in */
+.rated_in {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: silver;
+  text-transform: capitalize;
 }
 
 /* ================================================= */
@@ -252,19 +289,33 @@ body {
   /* ================================================ */
   /* intro title  */
   .intro_title {
-    font-size: 2rem;
+    font-size: 2.4rem;
   }
 
   /* ================================================ */
   /* intro info  */
   .intro_info {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
   }
 
   /* ================================================ */
   /* enroll btn  */
   .enroll_btn {
     font-size: 1.2rem;
+  }
+
+  /* ================================================ */
+  /* users */
+  .users {
+    gap: 0.6rem;
+    justify-content: space-between;
+    border-left: 3px solid lightgray;
+  }
+
+  /* ================================================ */
+  /* user rate */
+  .user_rate {
+    font-size: 1.6rem;
   }
 }
 
@@ -358,7 +409,6 @@ body {
   /* ================================================ */
   /* welcome content  */
   .welcome_content {
-    top: 30%;
     left: 2%;
     width: 70%;
     text-shadow: 2px 2px 3px black;
@@ -384,5 +434,17 @@ body {
     font-size: 1rem;
     padding: 1rem 0;
     text-shadow: none;
+  }
+
+  /* ================================================ */
+  /* user rate */
+  .user_rate {
+    font-size: 1.8rem;
+  }
+
+  /* ================================================ */
+  /* rated in */
+  .rated_in {
+    font-size: 1rem;
   }
 }
