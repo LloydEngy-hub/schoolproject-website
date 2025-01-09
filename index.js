@@ -48,5 +48,4 @@ window.addEventListener("scroll", () => {
   } else {
     CloseFunction(nav_container, "nav_bg");
   }
-  console.log(window.scrollY);
 });
