@@ -42,23 +42,6 @@ nav_toggle_btn.addEventListener("click", (e) => {
   }
 });
 
-// ======================================================
-// blog scroll elements
-const fixed_img = document.querySelector(".fixed_img");
-const firstBlog = document.querySelector(".firstBlog");
-const secondBlog = document.querySelector(".secondBlog");
-const thirdBlog = document.querySelector(".thirdBlog");
-const fourthBlog = document.querySelector(".fourthBlog");
-const fifthBlog = document.querySelector(".fifthBlog");
-const landingPage = document.querySelector(".landing_page");
-const fixed_img_container = document.querySelector(".fixed_img_container");
-const transition_container = document.querySelector(".transition_container");
-
-// get total page scroll height before reaching the first blog
-const webFirstTotalPartHeight =
-  landingPage.getBoundingClientRect().height +
-  transition_container.getBoundingClientRect().height;
-
 window.addEventListener("scroll", () => {
   // =================================================
   // nav scroll functionality
@@ -68,49 +51,78 @@ window.addEventListener("scroll", () => {
     CloseFunction(nav_container, "nav_bg");
   }
   // ===================================================
+});
 
-  // =================================================
-  // blog scroll functionality
-  if (window.scrollY >= webFirstTotalPartHeight) {
-    OpenFunction(fixed_img_container, "fixed");
+// =======================================================
+// slider elements
+let index = 0;
+const next_btn = document.querySelector(".next_slide");
+const prev_btn = document.querySelector(".prev_slide");
+const slide_img = document.querySelectorAll(".slide_img");
+const slider_title = document.querySelector(".slider_title");
+const slide_element = document.querySelector(".slider_container");
+const slide_detail_text = document.querySelector(".slide_detail_text");
+const slide_detail_title = document.querySelector(".slide_detail_title");
+const slide_img_container = document.querySelector(".slide_img_container");
 
-    // =============================================
-    // Logic for each blog elements height
-    const Blog1 =
-      webFirstTotalPartHeight + firstBlog.getBoundingClientRect().height;
-    const Blog2 = Blog1 + secondBlog.getBoundingClientRect().height;
-    const Blog3 = Blog2 + thirdBlog.getBoundingClientRect().height;
-    const Blog4 = Blog3 + fourthBlog.getBoundingClientRect().height;
-    const Blog5 = Blog4 + fifthBlog.getBoundingClientRect().height;
-    const Blog6 = Blog5 + fifthBlog.getBoundingClientRect().height;
-    // ==============================================
+const localData = async () => {
+  const resp = await fetch("./data.json");
+  const data = await resp.json();
 
-    if (window.scrollY >= Blog1) {
-      fixed_img.src = "./src/Assets/Images/Blog1.jpeg";
+  const upDated = () => {
+    // change image functionality
+    data.forEach(({ Logo }, index) => {
+      if (slide_img[index]) {
+        slide_img[index].src = Logo;
+      }
+    });
+
+    // slide functionality
+    const { topName, title, backgroundImg, subText, activeLogo } = data[index];
+
+    // setting up the html for the slide once page loads
+    slide_img[index].src = activeLogo;
+    slider_title.textContent = topName;
+    slide_detail_title.textContent = title;
+    slide_detail_text.textContent = subText;
+
+    slide_element.style.background = `linear-gradient(
+          to top,
+          rgba(0, 0, 0, 0.15),
+          rgba(0, 0, 0, 0.25),
+          rgba(0, 0, 0, 0.35)
+        ),
+        url(${backgroundImg}) center/cover, no-repeat`;
+  };
+
+  upDated();
+
+  // next btn functionality
+  next_btn.addEventListener("click", () => {
+    index++;
+    if (index > data.length - 1) {
+      index = 0;
     }
+    upDated();
+  });
 
-    if (window.scrollY >= Blog2) {
-      fixed_img.src = "./src/Assets/Images/bg2.jpg";
+  // prev btn functionality
+  prev_btn.addEventListener("click", () => {
+    index--;
+    if (index < 0) {
+      index = data.length - 1;
     }
+    upDated();
+  });
+};
 
-    if (window.scrollY >= Blog3) {
-      fixed_img.src = "./src/Assets/Images/bg8.jpg";
-    }
+slide_img.forEach((slideImage, Index) => {
+  slideImage.addEventListener("click", () => {
+    index = Index;
+    localData();
+  });
+});
 
-    if (window.scrollY >= Blog4) {
-      fixed_img.src = "./src/Assets/Images/bg15.jpg";
-    }
-
-    if (window.scrollY >= Blog5) {
-      fixed_img.src = "./src/Assets/Images/bg6.jpg";
-    }
-    if (window.scrollY >= Blog6 - 70) {
-      CloseFunction(fixed_img_container, "fixed");
-      OpenFunction(fixed_img_container, "absolute");
-    } else {
-      CloseFunction(fixed_img_container, "absolute");
-    }
-  } else {
-    CloseFunction(fixed_img_container, "fixed");
-  }
+window.addEventListener("DOMContentLoaded", () => {
+  localData();
 });
