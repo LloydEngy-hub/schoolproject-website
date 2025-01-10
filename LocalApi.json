@@ -1,0 +1,48 @@
+{
+  "ourTeachers": [
+    {
+      "name": "Angela T. Vigil",
+      "course": "Associate Professor",
+      "profile": "./src/Assets/Images/Angela.jpg",
+      "icon": [
+        "<i class='fa-brands fa-facebook-f'></i>",
+        "<i class='fa-brands fa-whatsapp'></i>",
+        "<i class='fa-brands fa-linkedin'></i>",
+        "<i class='fa-brands fa-youtube'></i>"
+      ]
+    },
+    {
+      "name": "Frank A. Mitchell",
+      "course": "Associate Professor",
+      "profile": "./src/Assets/Images/Frank.jpg",
+      "icon": [
+        "<i class='fa-brands fa-facebook-f'></i>",
+        "<i class='fa-brands fa-whatsapp'></i>",
+        "<i class='fa-brands fa-linkedin'></i>",
+        "<i class='fa-brands fa-youtube'></i>"
+      ]
+    },
+    {
+      "name": "Dennis A. Pruitt",
+      "course": "Associate Professor",
+      "profile": "./src/Assets/Images/Dennis.jpg",
+      "icon": [
+        "<i class='fa-brands fa-facebook-f'></i>",
+        "<i class='fa-brands fa-whatsapp'></i>",
+        "<i class='fa-brands fa-linkedin'></i>",
+        "<i class='fa-brands fa-youtube'></i>"
+      ]
+    },
+    {
+      "name": "Susan D. Lunsford",
+      "course": "CEO & Founder",
+      "profile": "./src/Assets/Images/Susan.jpg",
+      "icon": [
+        "<i class='fa-brands fa-facebook-f'></i>",
+        "<i class='fa-brands fa-whatsapp'></i>",
+        "<i class='fa-brands fa-linkedin'></i>",
+        "<i class='fa-brands fa-youtube'></i>"
+      ]
+    }
+  ]
+}

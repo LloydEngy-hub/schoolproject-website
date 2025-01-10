@@ -123,6 +123,54 @@ slide_img.forEach((slideImage, Index) => {
   });
 });
 
+// ========================================================
+// our teacher  elements
+const our_teacher_container = document.querySelector(".our_teachers_container");
+
+const TeacherApi = async () => {
+  const resp = await fetch("./LocalApi.json");
+  const { ourTeachers } = await resp.json();
+
+  // create our teacher content
+  const displayContent = ourTeachers
+    .map(({ name, course, profile, icon }) => {
+      return `<div class="our_teacher_content">
+
+
+              <div class="our_teacher_profile_container">
+              
+                <img
+                  src=${profile}
+                  alt="our_teacher_profile"
+                  class="our_teacher_profile"
+                />
+
+           
+                <div class="teachers_link_container">
+                 
+                  <div class="teacher_link">
+                    
+
+                  ${icon.map((socialIcon) => {
+                    return `<div class="social_icon">${socialIcon}</div>`;
+                  })}
+                    
+                  </div>
+                </div>
+              </div>
+
+             
+              <h3 class="teacher_name">${name}</h3>
+
+             
+              <p class="teacher_profession">${course}</p>
+            </div>`;
+    })
+    .join("");
+  our_teacher_container.innerHTML = displayContent;
+};
+
 window.addEventListener("DOMContentLoaded", () => {
   localData();
+  TeacherApi();
 });
