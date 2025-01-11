@@ -44,5 +44,151 @@
         "<i class='fa-brands fa-youtube'></i>"
       ]
     }
+  ],
+  "ourCourse": [
+    {
+      "courseName": "Data Analytics",
+      "courseText": "Data analytics is the collection, transformation, and organization of data in order to draw conclusions, make predictions, and drive informed decision making",
+      "courseIcon": "<i class='fa-solid fa-chalkboard-user'></i>",
+      "courseImg": "./src/Assets/Images/Blog2.jpeg"
+    },
+    {
+      "courseName": "DevOps Engineering",
+      "courseText": "DevOps integrates and automates the work of software development and IT operations as a means for improving and shortening the systems development life cycle",
+      "courseIcon": "<i class='fa-solid fa-microchip'></i>",
+      "courseImg": "./src/Assets/Images/bg16.jpg"
+    },
+    {
+      "courseName": "Software Development (Python)",
+      "courseText": "Software development is the process of designing, creating, testing, and maintaining different software applications. It involves the application of various principles and techniques from computer science, engineering and mathematical analysis.",
+      "courseIcon": "<i class='fa-brands fa-connectdevelop'></i>",
+      "courseImg": "./src/Assets/Images/bg3.jpg"
+    },
+    {
+      "courseName": "Data Science",
+      "courseText": "Data science is the study of data to extract meaningful insights for business.",
+      "courseIcon": "<i class='fa-solid fa-atom'></i>",
+      "courseImg": "./src/Assets/Images/Blog3.jpeg"
+    },
+    {
+      "courseName": "Software Engineering",
+      "courseText": "Software engineering is the branch of computer science that deals with the design, development, testing, and maintenance of software applications.",
+      "courseIcon": "<i class='fa-solid fa-gear'></i>",
+      "courseImg": "./src/Assets/Images/pics2.jpeg"
+    },
+    {
+      "courseName": "UI UX Design",
+      "courseText": " User Interface (UI) and User Experience (UX) Design focus using Figma.",
+      "courseIcon": "<i class='fa-brands fa-figma'></i>",
+      "courseImg": "./src/Assets/Images/pics10.jpeg"
+    },
+    {
+      "courseName": "Frontend Development",
+      "courseText": "The development of visual and interactive elements of a website.",
+      "courseIcon": "<i class='fa-brands fa-connectdevelop'></i>",
+      "courseImg": "./src/Assets/Images/pics4.jpeg"
+    },
+    {
+      "courseName": "Backend Development",
+      "courseText": "The development of functionality and server-side of a software.",
+      "courseIcon": "<i class='fa-solid fa-user-gear'></i>",
+      "courseImg": "./src/Assets/Images/pics3.jpeg"
+    },
+    {
+      "courseName": "WordPress Web Design",
+      "courseText": "WordPress is a web content management system for building websites.",
+      "courseIcon": "<i class='fa-solid fa-users-gear'></i>",
+      "courseImg": "./src/Assets/Images/pics6.jpeg"
+    },
+    {
+      "courseName": "Cyber Security",
+      "courseText": "Cybersecurity is the practice of protecting systems, networks, and programs from digital attacks. These cyberattacks are usually aimed at accessing, changing, or destroying sensitive information; extorting money from users via ransomware; or interrupting normal business processes.",
+      "courseIcon": "<i class='fa-solid fa-person-military-pointing'></i>",
+      "courseImg": "./src/Assets/Images/bg15.jpg"
+    },
+    {
+      "courseName": "Web Development (PHP/Laravel)",
+      "courseText": "The development of visual and interactive elements of a website.",
+      "courseIcon": "<i class='fa-brands fa-connectdevelop'></i>",
+      "courseImg": "./src/Assets/Images/bg.jpg"
+    },
+    {
+      "courseName": "Mobile App Development",
+      "courseText": "Build functional cross platform mobile app with flutter and dart.",
+      "courseIcon": "<i class='fa-solid fa-mobile-button'></i>",
+      "courseImg": "./src/Assets/Images/bg2.jpg"
+    },
+    {
+      "courseName": "Full stack Development (MERN) ",
+      "courseText": "Our full stack development focus on how to build software using MongoDB, ExpressJS, React and NodeJS.",
+      "courseIcon": "<i class='fa-solid fa-chalkboard-user'></i>",
+      "courseImg": "./src/Assets/Images/bg6.jpg"
+    },
+    {
+      "courseName": "Artificial Intelligence ",
+      "courseText": "Learn deep learning, computer vision, natural language processing",
+      "courseIcon": "<i class='fa-solid fa-recycle'></i>",
+      "courseImg": "./src/Assets/Images/bg4.jpg"
+    },
+    {
+      "courseName": "C# and .NET Development",
+      "courseText": "Build enterprise software using .NET framework and other tools like c#",
+      "courseIcon": "<i class='fa-solid fa-chalkboard-user'></i>",
+      "courseImg": "./src/Assets/Images/Blog4.jpeg"
+    },
+    {
+      "courseName": "Digital Marketing",
+      "courseText": "Learn how to turn prospect into repeated buyer",
+      "courseIcon": "<i class='fa-solid fa-earth-asia'></i>",
+      "courseImg": "./src/Assets/Images/Blog1.jpeg"
+    },
+    {
+      "courseName": "Java Software Training",
+      "courseText": "Build scalable and enterprise application with Java",
+      "courseIcon": "<i class='fa-solid fa-chalkboard-user'></i>",
+      "courseImg": "./src/Assets/Images/pics7.jpeg"
+    },
+    {
+      "courseName": "Data Engineering",
+      "courseText": "Learn how to work with big data, data pipeline, ETL and more",
+      "courseIcon": "<i class='fa-solid fa-gear'></i>",
+      "courseImg": "./src/Assets/Images/bg12.jpg"
+    },
+    {
+      "courseName": "Acting And Drama",
+      "courseText": "There are many variations of passages orem psum available but the majority have suffer alteration in some form by injected.",
+      "courseIcon": "<i class='fa-brands fa-old-republic'></i>",
+      "courseImg": "./src/Assets/Images/Acting.jpg"
+    },
+    {
+      "courseName": "Art And Design",
+      "courseText": "There are many variations of passages orem psum available but the majority have suffer alteration in some form by injected.",
+      "courseIcon": "<i class='fa-solid fa-biohazard'></i>",
+      "courseImg": "./src/Assets/Images/Art.jpg"
+    },
+    {
+      "courseName": "Biology And Conservation",
+      "courseText": "There are many variations of passages orem psum available but the majority have suffer alteration in some form by injected.",
+      "courseIcon": "<i class='fa-solid fa-bed-pulse'></i>",
+      "courseImg": "./src/Assets/Images/Biology.jpg"
+    },
+    {
+      "courseName": "Science And Engineering",
+      "courseText": "There are many variations of passages orem psum available but the majority have suffer alteration in some form by injected.",
+      "courseIcon": "<i class='fa-solid fa-gear'></i>",
+      "courseImg": "./src/Assets/Images/science.jpg"
+    },
+    {
+      "courseName": "Health Administration",
+      "courseText": "There are many variations of passages orem psum available but the majority have suffer alteration in some form by injected.",
+      "courseIcon": "<i class='fa-solid fa-kit-medical'></i>",
+      "courseImg": "./src/Assets/Images/health.jpg"
+    },
+    {
+      "courseName": "Accounting And Finance",
+      "courseText": "There are many variations of passages orem psum available but the majority have suffer alteration in some form by injected.",
+      "courseIcon": "<i class='fa-solid fa-sack-dollar'></i>",
+      "courseImg": "./src/Assets/Images/accounting.jpg"
+    }
   ]
 }

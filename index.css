@@ -501,6 +501,7 @@ body {
 .our_teacher_content {
   gap: 0.6rem;
   display: flex;
+  cursor: pointer;
   overflow: hidden;
   padding-block: 1rem;
   border-radius: 50px;
