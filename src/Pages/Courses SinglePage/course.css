@@ -125,10 +125,6 @@ body {
   background-color: black;
 }
 
-.nav_bg .link {
-  color: black;
-}
-
 /* ================================================ */
 /* desktop nav  */
 .desktop_nav {
@@ -813,6 +809,10 @@ body {
   .nav_bg .link:hover {
     color: white;
     background-color: black;
+  }
+
+  .nav_bg .link {
+    color: black;
   }
 
   /* ================================================ */
