@@ -33,7 +33,7 @@ body {
 /* nav container */
 .nav_container {
   top: 0;
-  width: 97%;
+  width: 100%;
   z-index: 999;
   position: fixed;
   overflow: hidden;
@@ -120,10 +120,6 @@ body {
 .link:hover {
   color: white;
   background-color: black;
-}
-
-.nav_bg .link {
-  color: black;
 }
 
 /* ================================================ */
@@ -229,10 +225,545 @@ body {
 /* ================================================ */
 /* rated in */
 .rated_in {
+  color: silver;
   font-size: 0.9rem;
   font-weight: 700;
-  color: silver;
   text-transform: capitalize;
+}
+
+/* ================================================ */
+/* transition container */
+.transition_container {
+  width: 96%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  padding-block: 0.6rem;
+}
+
+/* ================================================ */
+/* transition title */
+.transition_title {
+  width: 40%;
+  font-weight: 800;
+  font-size: 0.85rem;
+  text-transform: capitalize;
+  color: rgb(109, 108, 108);
+}
+
+/* ================================================ */
+/* transiting text */
+.transiting_text {
+  width: 60%;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  background-color: rgb(209, 207, 207);
+}
+
+/* ================================================ */
+/* transiting img container */
+.transiting_img_container {
+  gap: 0.8rem;
+  display: flex;
+  animation: moveIcon 15s linear infinite;
+}
+
+/* ================================================ */
+/* transiting img */
+.transiting_img {
+  width: 180px;
+  height: 50px;
+  object-fit: cover;
+}
+
+/* ================================================ */
+/* school details blog */
+.school_details_blog {
+  width: 96%;
+  margin: auto;
+  display: flex;
+  padding-block: 2rem;
+}
+
+/* ================================================ */
+/*  blog like section */
+.blog_like_section {
+  gap: 3rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ================================================ */
+/* blog */
+.blog {
+  gap: 0.5rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ================================================ */
+/*  blog image */
+.blog_image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* ================================================ */
+/*  blog container */
+.blog_container {
+  gap: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ================================================ */
+/*  blog title */
+.blog_title {
+  font-size: 1.2rem;
+  padding: 0.5rem 0;
+}
+
+/* ================================================ */
+/* blog text*/
+.blog_text {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: rgb(68, 67, 67);
+  text-transform: capitalize;
+}
+
+/* ================================================ */
+/* slider container*/
+.slider_container {
+  gap: 1rem;
+  display: flex;
+  color: white;
+  min-height: 68vh;
+  padding: 1rem 0.5rem;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* ================================================ */
+/* slider title*/
+.slider_title {
+  padding: 2rem 0;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: lawngreen;
+  letter-spacing: 0.4rem;
+  text-transform: uppercase;
+  font-family: "Rochester", serif;
+  text-shadow: 2px 2px 2px blue, 3px 3px 5px lawngreen;
+}
+
+/* ================================================ */
+/* slider details*/
+.slider_details {
+  gap: 0.4rem;
+  display: flex;
+  flex-direction: column;
+  text-transform: capitalize;
+  font-family: "Catamaran", serif;
+}
+
+/* ================================================ */
+/* slide detail title*/
+.slide_detail_title {
+  font-size: 1.2rem;
+}
+
+/* ================================================ */
+/* slide detail text*/
+.slide_detail_text {
+  color: #b0d6ce;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+/* ================================================ */
+/* slide img btn container*/
+.slide_img_btn_container {
+  gap: 0.8rem;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ================================================ */
+/* slide img container*/
+.slide_img_container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-block: 0.6rem;
+  justify-content: space-evenly;
+  background-color: rgba(34, 34, 34, 0.808);
+}
+
+/* ================================================ */
+/* slide img*/
+.slide_img {
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+  object-fit: contain;
+}
+
+/* ================================================ */
+/* slide btn*/
+.slide_btn {
+  gap: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+/* ================================================ */
+/* control slide*/
+.control_slide {
+  color: white;
+  cursor: pointer;
+  font-weight: 900;
+  font-size: 0.8rem;
+  border-radius: 10px;
+  padding: 0.5rem 1.2rem;
+  transition: 1s all linear;
+  background-color: transparent;
+}
+
+.control_slide:hover {
+  color: black;
+  background-color: #0fddcc;
+}
+
+/* ================================================ */
+/* our teachers*/
+.our_teachers {
+  gap: 1rem;
+  display: flex;
+  padding: 3rem 0;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* ================================================ */
+/* our teachers heading*/
+.our_teachers_heading {
+  color: #fda31b;
+  font-size: 1.3rem;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  border-bottom: 3px solid #fda31b;
+}
+
+/* ================================================ */
+/* our teacher title*/
+.our_teacher_title {
+  width: 96%;
+  font-weight: 900;
+  font-size: 2.8rem;
+  text-align: center;
+}
+
+.color_orange {
+  color: #fda31b;
+}
+
+/* ================================================ */
+/* our teacher info*/
+.our_teacher_info {
+  width: 96%;
+  font-size: 1rem;
+  color: #757f95;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* ================================================ */
+/* our teachers container*/
+.our_teachers_container {
+  gap: 3rem;
+  width: 96%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+/* ================================================ */
+/* our teacher content*/
+.our_teacher_content {
+  gap: 0.6rem;
+  display: flex;
+  cursor: pointer;
+  overflow: hidden;
+  padding-block: 1rem;
+  border-radius: 50px;
+  align-items: center;
+  flex-direction: column;
+  border-bottom-left-radius: 0;
+  box-shadow: 2px 2px 10px 5px rgba(187, 186, 186, 0.534);
+}
+
+.our_teacher_content:hover .teachers_link_container {
+  opacity: 1;
+  transform: translate(0);
+}
+
+/* ================================================ */
+/* our teachers profile container*/
+.our_teacher_profile_container {
+  width: 94%;
+  overflow: hidden;
+  position: relative;
+}
+
+/* ================================================ */
+/* our teachers profile*/
+.our_teacher_profile {
+  width: 100%;
+  border-radius: 50px;
+  border-bottom-left-radius: 0;
+}
+
+/* ================================================ */
+/* teachers link container*/
+.teachers_link_container {
+  top: 10%;
+  right: 0;
+  opacity: 0;
+  padding: 1rem;
+  position: absolute;
+  transition: all 1s linear;
+  transform: translate(120%);
+}
+
+/* ================================================ */
+/* social icon*/
+.social_icon {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  color: white;
+  cursor: pointer;
+  font-size: 1.2rem;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  transition: all 1s linear;
+  background-color: #fda31b;
+  border-bottom-left-radius: 0;
+}
+
+.social_icon:hover {
+  background-color: #116e63;
+}
+
+/* ================================================ */
+/* teacher name*/
+.teacher_name {
+  width: 94%;
+  font-size: 1.2rem;
+}
+
+/* ================================================ */
+/* teacher profession*/
+.teacher_profession {
+  width: 94%;
+  color: #116e63;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
+
+/* ================================================ */
+/* footer container*/
+.footer_container {
+  gap: 2rem;
+  display: flex;
+  color: white;
+  align-items: center;
+  flex-direction: column;
+  background-color: #012758;
+}
+
+/* ================================================ */
+/* footer header*/
+.footer_header {
+  gap: 2rem;
+  width: 96%;
+  display: grid;
+  padding-block: 3rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+/* ================================================ */
+/* footer logo container, quick link container , our campus container, news letter container*/
+:is(
+    .footer_logo_container,
+    .quick_link_container,
+    .our_campus_container,
+    .news_letter_container
+  ) {
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ================================================ */
+/* footer logo */
+.footer_logo {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 20px;
+  background-color: white;
+}
+
+/* ================================================ */
+/* footer text*/
+.footer_text {
+  font-weight: 500;
+  font-size: 0.95rem;
+  line-height: 1.7rem;
+}
+
+/* ================================================ */
+/* footer link container*/
+.footer_link_container {
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ================================================ */
+/* footer link*/
+.footer_link {
+  gap: 1rem;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  transition: 1s all linear;
+}
+
+.footer_link:hover {
+  color: #fda31b;
+}
+
+/* ================================================ */
+/* footer icon container*/
+.footer_icon_container {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  background-color: #fda31b;
+  border-bottom-left-radius: 0;
+}
+
+.logo_text {
+  width: 80%;
+}
+
+/* ================================================ */
+/* play icon*/
+.fa-play {
+  color: #fda31b;
+  font-size: 0.8rem;
+}
+
+/* ================================================ */
+/* footer title*/
+.footer_title {
+  width: max-content;
+  font-size: 1.3rem;
+  padding-block: 1rem;
+  border-bottom: 3px dotted #fda31b;
+}
+
+/* ================================================ */
+/* footer form */
+.footer_form {
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ================================================ */
+/* email input */
+.email_input {
+  padding: 1rem;
+  font-weight: 600;
+  font-size: 1.1rem;
+  border-radius: 10px;
+}
+
+/* ================================================ */
+/* submit form */
+.submit_form {
+  padding: 1rem;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  transition: 1s all linear;
+  background-color: #fda31b;
+}
+
+.submit_form:hover {
+  color: #fda31b;
+  background-color: white;
+}
+
+/* ================================================ */
+/* footer bottom */
+.footer_bottom {
+  gap: 1rem;
+  width: 96%;
+  display: grid;
+  align-items: center;
+  padding-block: 1.5rem;
+  justify-content: space-between;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+/* ================================================ */
+/* copy right */
+.copy_right {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.orange {
+  color: #fda31b;
+}
+
+/* ================================================ */
+/* footer social icon container */
+.footer_social_icon_container {
+  gap: 1rem;
+  display: flex;
+}
+
+/* ================================================ */
+/* footer icons*/
+.footer_icons {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  color: #fda31b;
+  font-size: 1.2rem;
+  align-items: center;
+  border-radius: 10px;
+  justify-content: center;
+  background-color: white;
+  border-bottom-left-radius: 0;
 }
 
 /* ================================================= */
@@ -317,6 +848,114 @@ body {
   .user_rate {
     font-size: 1.6rem;
   }
+
+  /* ================================================ */
+  /* transition title */
+  .transition_title {
+    font-size: 1.1rem;
+  }
+
+  /* ================================================ */
+  /* transiting img container */
+  .transiting_img_container {
+    gap: 1.5rem;
+  }
+
+  /* ================================================ */
+  /* transiting img */
+  .transiting_img {
+    height: 70px;
+  }
+
+  /* ================================================ */
+  /*  blog title */
+  .blog_title {
+    font-size: 1.5rem;
+  }
+
+  /* ================================================ */
+  /* blog text*/
+  .blog_text {
+    font-size: 1.2rem;
+  }
+
+  /* ================================================ */
+  /* slider container*/
+  .slider_container {
+    min-height: 40vh;
+    position: relative;
+    padding: 1rem 1.5rem;
+  }
+
+  /* ================================================ */
+  /* slider title*/
+  .slider_title {
+    font-size: 1.6rem;
+  }
+
+  /* ================================================ */
+  /* slide detail title*/
+  .slide_detail_title {
+    font-size: 1.4rem;
+  }
+
+  /* ================================================ */
+  /* slide detail text*/
+  .slide_detail_text {
+    font-size: 1rem;
+  }
+
+  /* ================================================ */
+  /* slide btn*/
+  .slide_btn {
+    left: 0;
+    bottom: 10%;
+    width: 100%;
+    padding: 1rem;
+    position: absolute;
+    justify-content: space-between;
+  }
+  .control_slide {
+    font-size: 1.4rem;
+  }
+
+  /* ================================================ */
+  /* our teacher info*/
+  .our_teacher_info {
+    width: 94%;
+    font-size: 1.2rem;
+  }
+
+  /* ================================================ */
+  /* our teachers container*/
+  .our_teachers_container {
+    width: 94%;
+  }
+
+  /* ================================================ */
+  /* footer logo */
+  .footer_logo {
+    width: 80px;
+    height: 80px;
+  }
+
+  /* ================================================ */
+  /* footer text*/
+  .footer_text {
+    font-size: 1.1rem;
+  }
+
+  /* ================================================ */
+  /* footer title*/
+  .footer_title {
+    font-size: 1.5rem;
+  }
+
+  /* ================================================ */
+  /* footer social icon container */
+  .footer_social_icon_container {
+    justify-content: end;
+  }
 }
 
 /* ====================================================== */
@@ -367,6 +1006,10 @@ body {
   .link:hover {
     color: black;
     background-color: white;
+  }
+
+  .nav_bg .link {
+    color: black;
   }
 
   .nav_bg .link:hover {
@@ -446,5 +1089,93 @@ body {
   /* rated in */
   .rated_in {
     font-size: 1rem;
+  }
+
+  /* ================================================ */
+  /* transition title */
+  .transition_title {
+    font-size: 1.4rem;
+  }
+
+  /* ================================================ */
+  /*  blog like section */
+  .blog_like_section {
+    gap: 1rem;
+    width: 100%;
+  }
+
+  /* ================================================ */
+  /* blog */
+  .blog {
+    gap: 1.4rem;
+    flex-direction: row;
+  }
+
+  /* ================================================ */
+  /* blog container */
+  .blog_container {
+    width: 50%;
+    gap: 1.4rem;
+  }
+
+  /* ================================================ */
+  /*  blog image */
+  .blog_image {
+    width: 50%;
+    height: 15em;
+  }
+
+  /* ================================================ */
+  /*  blog title */
+  .blog_title {
+    font-size: 1.5rem;
+  }
+
+  /* ================================================ */
+  /* blog text*/
+  .blog_text {
+    font-size: 1.05rem;
+  }
+
+  /* ================================================ */
+  /* slider container*/
+  .slider_container {
+    padding: 2rem;
+    min-height: 68vh;
+  }
+
+  /* ================================================ */
+  /* slider title*/
+  .slider_title {
+    font-size: 2rem;
+  }
+
+  /* ================================================ */
+  /* slide detail title*/
+  .slide_detail_title {
+    font-size: 1.7rem;
+  }
+
+  /* ================================================ */
+  /* slide detail text*/
+  .slide_detail_text {
+    font-size: 1.1rem;
+  }
+
+  /* ================================================ */
+  /* our teachers profile container , teacher profession , teacher name*/
+  :is(.our_teacher_profile_container, .teacher_name, .teacher_profession) {
+    width: 90%;
+  }
+}
+
+/* ======================================================= */
+/* animation */
+@keyframes moveIcon {
+  0% {
+    transform: translate(20%);
+  }
+  100% {
+    transform: translate(-100%);
   }
 }

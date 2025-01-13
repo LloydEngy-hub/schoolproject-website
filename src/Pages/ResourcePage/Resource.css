@@ -141,6 +141,194 @@ body {
   display: none;
 }
 
+/* ================================================ */
+/* footer container*/
+.footer_container {
+  gap: 2rem;
+  display: flex;
+  color: white;
+  align-items: center;
+  flex-direction: column;
+  background-color: #012758;
+}
+
+/* ================================================ */
+/* footer header*/
+.footer_header {
+  gap: 2rem;
+  width: 96%;
+  display: grid;
+  padding-block: 3rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+/* ================================================ */
+/* footer logo container, quick link container , our campus container, news letter container*/
+:is(
+    .footer_logo_container,
+    .quick_link_container,
+    .our_campus_container,
+    .news_letter_container
+  ) {
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ================================================ */
+/* footer logo */
+.footer_logo {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 20px;
+  background-color: white;
+}
+
+/* ================================================ */
+/* footer text*/
+.footer_text {
+  font-weight: 500;
+  font-size: 0.95rem;
+  line-height: 1.7rem;
+}
+
+/* ================================================ */
+/* footer link container*/
+.footer_link_container {
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ================================================ */
+/* footer link*/
+.footer_link {
+  gap: 1rem;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  transition: 1s all linear;
+}
+
+.footer_link:hover {
+  color: #fda31b;
+}
+
+/* ================================================ */
+/* footer icon container*/
+.footer_icon_container {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  background-color: #fda31b;
+  border-bottom-left-radius: 0;
+}
+
+.logo_text {
+  width: 80%;
+}
+
+/* ================================================ */
+/* play icon*/
+.fa-play {
+  color: #fda31b;
+  font-size: 0.8rem;
+}
+
+/* ================================================ */
+/* footer title*/
+.footer_title {
+  width: max-content;
+  font-size: 1.3rem;
+  padding-block: 1rem;
+  border-bottom: 3px dotted #fda31b;
+}
+
+/* ================================================ */
+/* footer form */
+.footer_form {
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ================================================ */
+/* email input */
+.email_input {
+  padding: 1rem;
+  font-weight: 600;
+  font-size: 1.1rem;
+  border-radius: 10px;
+}
+
+/* ================================================ */
+/* submit form */
+.submit_form {
+  padding: 1rem;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  transition: 1s all linear;
+  background-color: #fda31b;
+}
+
+.submit_form:hover {
+  color: #fda31b;
+  background-color: white;
+}
+
+/* ================================================ */
+/* footer bottom */
+.footer_bottom {
+  gap: 1rem;
+  width: 96%;
+  display: grid;
+  align-items: center;
+  padding-block: 1.5rem;
+  justify-content: space-between;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+/* ================================================ */
+/* copy right */
+.copy_right {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.orange {
+  color: #fda31b;
+}
+
+/* ================================================ */
+/* footer social icon container */
+.footer_social_icon_container {
+  gap: 1rem;
+  display: flex;
+}
+
+/* ================================================ */
+/* footer icons*/
+.footer_icons {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  color: #fda31b;
+  font-size: 1.2rem;
+  align-items: center;
+  border-radius: 10px;
+  justify-content: center;
+  background-color: white;
+  border-bottom-left-radius: 0;
+}
+
 /* ================================================= */
 /* style involving javascript for mobile view */
 
@@ -176,6 +364,31 @@ body {
 
   .link {
     font-size: 1.5rem;
+  }
+
+  /* ================================================ */
+  /* footer logo */
+  .footer_logo {
+    width: 80px;
+    height: 80px;
+  }
+
+  /* ================================================ */
+  /* footer text*/
+  .footer_text {
+    font-size: 1.1rem;
+  }
+
+  /* ================================================ */
+  /* footer title*/
+  .footer_title {
+    font-size: 1.5rem;
+  }
+
+  /* ================================================ */
+  /* footer social icon container */
+  .footer_social_icon_container {
+    justify-content: end;
   }
 }
 

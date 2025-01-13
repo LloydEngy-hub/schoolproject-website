@@ -1,0 +1,42 @@
+[
+  {
+    "topName": "github",
+    "title": "Building scalable global teams with GitHub",
+    "backgroundImg": "./src/Assets/Images/bg3.jpg",
+    "subText": "As a global company, GitHub needed around-the-clock and local support. They turned to  tekk bridge academy to quickly staff several teams across their organization. Satisfied with the skill sets and quality, GitHub now has  tekk bridge academy in over 4 continents and growing.",
+    "activeLogo": "./src/Assets/Images/GitHubNormal.png",
+    "Logo": "./src/Assets/Images/GitHubDark.png"
+  },
+  {
+    "topName": "isg",
+    "title": "ISG successfully finds talent for their AI projects",
+    "backgroundImg": "./src/Assets/Images/pics1.jpeg",
+    "subText": "A global technology research and advisory firm, ISG, leveraged  tekk bridge academy Talent Cloud to find pre-vetted, high-caliber talent aligned to their objectives.  tekk bridge academy’s full-circle support, including regular check-ins and personalized guidance ensured they received the expertise they needed while nurturing both talent and client success.",
+    "activeLogo": "./src/Assets/Images/IsgNormalLogo.png",
+    "Logo": "./src/Assets/Images/IsgDarkLogo.png"
+  },
+  {
+    "topName": "mindshare",
+    "title": "Filling gaps and adding value with Mindshare",
+    "backgroundImg": "./src/Assets/Images/bg4.jpg",
+    "subText": "Mindshare ran into lengthy and costly lead times when looking for the right talent. By expanding their thinking to a border less mindset, they tapped into  tekk bridge academy’s qualified talent pool. The  tekk bridge academy team has been “indispensable” to their growth and has since expanded to support their entire product stack.",
+    "activeLogo": "./src/Assets/Images/MindshareNormal.png",
+    "Logo": "./src/Assets/Images/MindshareDark.png"
+  },
+  {
+    "topName": "nebula",
+    "title": "Scaling Nebula’s engineering team for accelerated project delivery",
+    "backgroundImg": "./src/Assets/Images/bg5.jpg",
+    "subText": "Nebula.io doubled their development speed by tapping into global talent. With 80% of their engineering team spanning eight countries in Sub-Saharan Africa, Nebula.io broke the classic project management constraints of cost, quality, and time – the iron triangle.",
+    "activeLogo": "./src/Assets/Images/NebulaNormal.png",
+    "Logo": "./src/Assets/Images/NebulaDark.png"
+  },
+  {
+    "topName": "the weather company",
+    "title": "Diversifying skill sets with The Weather Company",
+    "backgroundImg": "./src/Assets/Images/pics1 (2).jpeg",
+    "subText": "Looking to stay ahead of their competition, The Weather Company knew they needed the right talent to help them scale. They looked to  tekk bridge academy to bring in diverse and highly qualified engineers to build their back-end infrastructure.",
+    "activeLogo": "./src/Assets/Images/WeatherNormal.png",
+    "Logo": "./src/Assets/Images/WeatherDark.png"
+  }
+]

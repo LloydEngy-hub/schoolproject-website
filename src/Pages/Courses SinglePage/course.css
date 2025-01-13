@@ -180,144 +180,254 @@ body {
   color: blue;
 }
 
-.fa-greater-than {
-  font-size: 0.8rem;
-  border: 2px solid;
-}
-
 /* ================================================ */
-/* course main container  */
-.course_main_container {
-  width: 94%;
-  gap: 1rem;
-  margin: auto;
-  display: flex;
-  padding-block: 1rem;
-  flex-direction: column;
-}
-
-/* ================================================ */
-/* course header container  */
-.course_header_container {
-  gap: 0.5rem;
-  display: flex;
-  font-weight: 900;
-  text-align: center;
-  flex-direction: column;
-  letter-spacing: 0.1rem;
-}
-
-/* ================================================ */
-/* course welcome text  */
-.course_welcome_text {
-  color: #dc3545;
-  font-size: 0.9rem;
-  padding-block: 1rem;
-}
-
-/* ================================================ */
-/* course welcome title  */
-.course_welcome_title {
-  font-size: 1.8rem;
-  text-transform: capitalize;
-}
-
-/* ================================================ */
-/* course sub title  */
-.course_sub_title {
-  font-weight: 500;
-  color: #4d4c4c;
-  font-size: 1rem;
-}
-
-/* ================================================ */
-/* course container  */
+/*  course container  */
 .course_container {
-  gap: 1.5rem;
-  display: grid;
-  padding-block: 2rem;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-}
-
-/* ================================================ */
-/*  courses  */
-.courses {
-  gap: 0.6rem;
+  gap: 1rem;
+  border: 3px;
   display: flex;
-  padding-block: 1rem;
-  align-items: center;
-  border-radius: 10px;
+  padding: 0.6rem;
   flex-direction: column;
-  border: 1px solid gray;
-  box-shadow: 2px 2px 10px 5px rgba(187, 186, 186, 0.534);
 }
 
 /* ================================================ */
-/* courses profile container */
-.courses_profile_container {
-  width: 94%;
-  position: relative;
+/* course */
+.course {
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
 }
 
 /* ================================================ */
-/* courses profile  */
-.courses_profile {
+/* course profile  */
+.course_profile {
   width: 100%;
-  height: 25vh;
+  height: 30vh;
   object-fit: cover;
   border-radius: 10px;
 }
 
 /* ================================================ */
-/* courses icon  */
-.courses_icon {
-  left: 6%;
-  bottom: 0;
-  width: 80px;
-  height: 80px;
-  display: flex;
-  color: white;
+/* course title , course requirement , professional experience  */
+:is(.course_title, .course_requirement, .professional_experience) {
   font-size: 1.5rem;
-  position: absolute;
-  align-items: center;
-  border-radius: 10px;
-  background: #de0e7b;
+  padding-block: 0.9rem;
+}
+
+/* ================================================ */
+/* about course  */
+.about_course {
+  color: #757f95;
+  font-weight: 500;
+  font-size: 0.95rem;
+  line-height: 1.5rem;
+}
+
+/* ================================================ */
+/* school img container  */
+.school_img_container {
+  gap: 1rem;
+  display: grid;
   justify-content: center;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
 /* ================================================ */
-/* courses title  */
-.courses_title {
-  width: 90%;
-  font-size: 1.4rem;
+/* school img */
+.school_img {
+  width: 100%;
+  height: 35vh;
+  object-fit: cover;
+  border-radius: 10px;
 }
 
 /* ================================================ */
-/* courses detail  */
-.courses_detail {
-  width: 90%;
-  font-size: 0.9rem;
-}
-
-/* ================================================ */
-/* read more  */
-.read_more {
-  width: 90%;
-  gap: 0.5rem;
+/* selected section  */
+.selected_section {
+  gap: 1rem;
   display: flex;
-  margin-top: auto;
-  font-weight: 700;
-  color: #de0e7b;
-  font-size: 0.9rem;
+  flex-direction: column;
+}
+
+/* ================================================ */
+/* select  */
+.select {
+  gap: 1rem;
+  display: flex;
+  color: #fda31b;
   align-items: center;
+}
+
+/* ================================================ */
+/* select text  */
+.select_text {
+  color: #757f95;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+/* ================================================ */
+/* course info container  */
+.course_info_container {
+  gap: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ================================================ */
+/* course info  */
+.course_info {
+  gap: 1.4rem;
+  padding: 1rem;
+  display: flex;
+  border-radius: 20px;
+  flex-direction: column;
+  background-color: #f2f3f5;
+}
+
+/* ================================================ */
+/* course info title  */
+:is(.course_info_title, .course_feature_title) {
+  font-weight: 900;
+  font-size: 1.4rem;
+  width: max-content;
+  border-bottom: 3px dotted #fda31b;
+}
+
+/* ================================================ */
+/* course info detail container  */
+.course_info_detail_container {
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ================================================ */
+/* course info details  */
+.course_info_details {
+  gap: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+/* ================================================ */
+/* profile  */
+.profile {
+  width: 65px;
+  height: 65px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* ================================================ */
+/* profile  */
+.icon_profile {
+  width: 65px;
+  height: 65px;
+  display: flex;
+  color: #fda31b;
+  font-size: 1.2rem;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #fda31b;
+}
+
+/* ================================================ */
+/* course info title  */
+.info_title {
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
+/* ================================================ */
+/* name  */
+.name {
+  color: #757f95;
+  font-weight: 600;
+  letter-spacing: 0.05rem;
+}
+
+/* ================================================ */
+/* icon container  */
+.icon_container {
+  gap: 1rem;
+  display: flex;
+  cursor: pointer;
+  flex-direction: column;
+}
+
+/* ================================================ */
+/* enroll btn  */
+.enroll_btn {
+  padding: 1rem;
+  color: white;
+  font-weight: 900;
+  font-size: 0.9rem;
+  text-align: center;
+  border-radius: 30px;
   transition: 1s all linear;
   text-transform: uppercase;
+  background-color: #fda31b;
+  border-bottom-left-radius: 0;
 }
 
-.read_more:hover {
+.enroll_btn:hover {
+  background-color: #116e63;
+}
+
+/* ================================================ */
+/* course features  */
+.course_features {
+  gap: 1.4rem;
+  padding: 1rem;
+  display: flex;
+  border-radius: 20px;
+  flex-direction: column;
+  background-color: #f2f3f5;
+}
+
+/* ================================================ */
+/* course feature details container  */
+.course_feature_details_container {
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ================================================ */
+/* feature details  */
+.feature_details {
+  display: flex;
+  cursor: pointer;
+  padding: 0.5rem 0;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 0.1rem solid rgb(170, 169, 169);
+}
+
+/* ================================================ */
+/* feature name */
+.feature_name {
+  gap: 1rem;
+  display: flex;
+  color: #fda31b;
+  font-weight: 900;
+  font-size: 0.9rem;
+  align-items: center;
+}
+
+/* ================================================ */
+/* titleName  */
+.titleName {
   color: black;
+}
+
+/* ================================================ */
+/* number  */
+.number {
+  font-size: 1rem;
+  font-weight: 900;
 }
 
 /* ================================================ */
@@ -566,40 +676,58 @@ body {
   }
 
   /* ================================================ */
-  /* course welcome text  */
-  .course_welcome_text {
-    font-size: 1.2rem;
+  /* course title , course requirement , professional experience  */
+  :is(.course_title, .course_requirement, .professional_experience) {
+    font-size: 1.8rem;
   }
 
   /* ================================================ */
-  /* course welcome title  */
-  .course_welcome_title {
-    font-size: 2.3rem;
-  }
-
-  /* ================================================ */
-  /* course sub title  */
-  .course_sub_title {
-    text-align: center;
-    font-size: 1.2rem;
-  }
-
-  /* ================================================ */
-  /* courses icon  */
-  .courses_title {
-    font-size: 1.6rem;
-  }
-
-  /* ================================================ */
-  /* courses detail  */
-  .courses_detail {
+  /* about course  */
+  .about_course {
     font-size: 1.1rem;
   }
 
   /* ================================================ */
-  /* read more  */
-  .read_more {
-    font-size: 1rem;
+  /* select text  */
+  .select_text {
+    font-size: 1.1rem;
+  }
+
+  /* ================================================ */
+  /* course info title  */
+  :is(.course_info_title, .course_feature_title) {
+    font-size: 1.6rem;
+  }
+
+  /* ================================================ */
+  /* profile  */
+  :is(.profile, .icon_profile) {
+    width: 85px;
+    height: 85px;
+  }
+
+  /* ================================================ */
+  /* course info title  */
+  .info_title {
+    font-size: 1.5rem;
+  }
+
+  /* ================================================ */
+  /* name  */
+  .name {
+    font-size: 1.2rem;
+  }
+
+  /* ================================================ */
+  /* enroll btn  */
+  .enroll_btn {
+    font-size: 1.1rem;
+  }
+
+  /* ================================================ */
+  /* feature name,number */
+  :is(.feature_name, .number) {
+    font-size: 1.1rem;
   }
 
   /* ================================================ */
@@ -678,13 +806,13 @@ body {
     background-color: white;
   }
 
-  .nav_bg .link {
-    color: black;
-  }
-
   .nav_bg .link:hover {
     color: white;
     background-color: black;
+  }
+
+  .nav_bg .link {
+    color: black;
   }
 
   /* ================================================ */
@@ -694,31 +822,58 @@ body {
   }
 
   /* ================================================ */
-  /* courses icon  */
-  .courses_icon {
-    width: 50px;
-    height: 50px;
-    font-size: 1rem;
-    border-radius: 5px;
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
+  /*  course container  */
+  .course_container {
+    padding: 3rem;
+    flex-direction: row;
   }
 
   /* ================================================ */
-  /* courses title  */
-  .courses_title {
+  /* course */
+  .course {
+    width: 60%;
+  }
+
+  /* ================================================ */
+  /* course profile  */
+  .course_profile {
+    height: 50vh;
+  }
+
+  /* ================================================ */
+  /* course info container  */
+  .course_info_container {
+    width: 40%;
+  }
+
+  /* ================================================ */
+  /* profile  */
+  :is(.profile, .icon_profile) {
+    width: 55px;
+    height: 55px;
+  }
+
+  /* ================================================ */
+  /* course info title  */
+  .info_title {
     font-size: 1.2rem;
   }
 
   /* ================================================ */
-  /* courses detail  */
-  .courses_detail {
-    font-size: 0.8rem;
+  /* name  */
+  .name {
+    font-size: 1rem;
   }
 
   /* ================================================ */
-  /* read more  */
-  .read_more {
-    font-size: 0.7rem;
+  /* enroll btn  */
+  .enroll_btn {
+    font-size: 0.9rem;
+  }
+
+  /* ================================================ */
+  /* feature name,number */
+  :is(.feature_name, .number) {
+    font-size: 0.9rem;
   }
 }

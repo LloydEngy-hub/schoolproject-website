@@ -40,6 +40,7 @@ nav_toggle_btn.addEventListener("click", (e) => {
     CloseFunction(nav_container, "nav_bg");
     nav_container.style.height = `calc(${navInitialHeight}px + 1rem)`;
   }
+  console.log(navInitialHeight);
 });
 
 window.addEventListener("scroll", () => {

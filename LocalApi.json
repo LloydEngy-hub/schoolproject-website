@@ -1,0 +1,263 @@
+{
+  "ourTeachers": [
+    {
+      "name": "Angela T. Vigil",
+      "course": "Associate Professor",
+      "profile": "./src/Assets/Images/Angela.jpg",
+      "icon": [
+        "<i class='fa-brands fa-facebook-f'></i>",
+        "<i class='fa-brands fa-whatsapp'></i>",
+        "<i class='fa-brands fa-linkedin'></i>",
+        "<i class='fa-brands fa-youtube'></i>"
+      ]
+    },
+    {
+      "name": "Frank A. Mitchell",
+      "course": "Associate Professor",
+      "profile": "./src/Assets/Images/Frank.jpg",
+      "icon": [
+        "<i class='fa-brands fa-facebook-f'></i>",
+        "<i class='fa-brands fa-whatsapp'></i>",
+        "<i class='fa-brands fa-linkedin'></i>",
+        "<i class='fa-brands fa-youtube'></i>"
+      ]
+    },
+    {
+      "name": "Dennis A. Pruitt",
+      "course": "Associate Professor",
+      "profile": "./src/Assets/Images/Dennis.jpg",
+      "icon": [
+        "<i class='fa-brands fa-facebook-f'></i>",
+        "<i class='fa-brands fa-whatsapp'></i>",
+        "<i class='fa-brands fa-linkedin'></i>",
+        "<i class='fa-brands fa-youtube'></i>"
+      ]
+    },
+    {
+      "name": "Susan D. Lunsford",
+      "course": "CEO & Founder",
+      "profile": "./src/Assets/Images/Susan.jpg",
+      "icon": [
+        "<i class='fa-brands fa-facebook-f'></i>",
+        "<i class='fa-brands fa-whatsapp'></i>",
+        "<i class='fa-brands fa-linkedin'></i>",
+        "<i class='fa-brands fa-youtube'></i>"
+      ]
+    }
+  ],
+  "ourCourse": [
+    {
+      "courseName": "Data Analytics",
+      "courseText": "Data analytics is the collection, transformation, and organization of data in order to draw conclusions, make predictions, and drive informed decision making",
+      "courseIcon": "<i class='fa-solid fa-chalkboard-user'></i>",
+      "courseImg": "../../Assets/Images/Blog2.jpeg"
+    },
+    {
+      "courseName": "DevOps Engineering",
+      "courseText": "DevOps integrates and automates the work of software development and IT operations as a means for improving and shortening the systems development life cycle",
+      "courseIcon": "<i class='fa-solid fa-microchip'></i>",
+      "courseImg": "../../Assets/Images/bg16.jpg"
+    },
+    {
+      "courseName": "Software Development (Python)",
+      "courseText": "Software development is the process of designing, creating, testing, and maintaining different software applications. It involves the application of various principles and techniques from computer science, engineering and mathematical analysis.",
+      "courseIcon": "<i class='fa-brands fa-connectdevelop'></i>",
+      "courseImg": "../../Assets/Images/bg3.jpg"
+    },
+    {
+      "courseName": "Data Science",
+      "courseText": "Data science is the study of data to extract meaningful insights for business.",
+      "courseIcon": "<i class='fa-solid fa-atom'></i>",
+      "courseImg": "../../Assets/Images/Blog3.jpeg"
+    },
+    {
+      "courseName": "Software Engineering",
+      "courseText": "Software engineering is the branch of computer science that deals with the design, development, testing, and maintenance of software applications.",
+      "courseIcon": "<i class='fa-solid fa-gear'></i>",
+      "courseImg": "../../Assets/Images/pics2.jpeg"
+    },
+    {
+      "courseName": "UI UX Design",
+      "courseText": " User Interface (UI) and User Experience (UX) Design focus using Figma.",
+      "courseIcon": "<i class='fa-brands fa-figma'></i>",
+      "courseImg": "../../Assets/Images/pics10.jpeg"
+    },
+    {
+      "courseName": "Frontend Development",
+      "courseText": "The development of visual and interactive elements of a website.",
+      "courseIcon": "<i class='fa-brands fa-connectdevelop'></i>",
+      "courseImg": "../../Assets/Images/pics4.jpeg"
+    },
+    {
+      "courseName": "Backend Development",
+      "courseText": "The development of functionality and server-side of a software.",
+      "courseIcon": "<i class='fa-solid fa-user-gear'></i>",
+      "courseImg": "../../Assets/Images/pics3.jpeg"
+    },
+    {
+      "courseName": "WordPress Web Design",
+      "courseText": "WordPress is a web content management system for building websites.",
+      "courseIcon": "<i class='fa-solid fa-users-gear'></i>",
+      "courseImg": "../../Assets/Images/pics6.jpeg"
+    },
+    {
+      "courseName": "Cyber Security",
+      "courseText": "Cybersecurity is the practice of protecting systems, networks, and programs from digital attacks. These cyberattacks are usually aimed at accessing, changing, or destroying sensitive information; extorting money from users via ransomware; or interrupting normal business processes.",
+      "courseIcon": "<i class='fa-solid fa-person-military-pointing'></i>",
+      "courseImg": "../../Assets/Images/bg15.jpg"
+    },
+    {
+      "courseName": "Web Development (PHP/Laravel)",
+      "courseText": "The development of visual and interactive elements of a website.",
+      "courseIcon": "<i class='fa-brands fa-connectdevelop'></i>",
+      "courseImg": "../../Assets/Images/bg.jpg"
+    },
+    {
+      "courseName": "Mobile App Development",
+      "courseText": "Build functional cross platform mobile app with flutter and dart.",
+      "courseIcon": "<i class='fa-solid fa-mobile-button'></i>",
+      "courseImg": "../../Assets/Images/bg2.jpg"
+    },
+    {
+      "courseName": "Full stack Development (MERN) ",
+      "courseText": "Our full stack development focus on how to build software using MongoDB, ExpressJS, React and NodeJS.",
+      "courseIcon": "<i class='fa-solid fa-chalkboard-user'></i>",
+      "courseImg": "../../Assets/Images/bg6.jpg"
+    },
+    {
+      "courseName": "Artificial Intelligence ",
+      "courseText": "Learn deep learning, computer vision, natural language processing",
+      "courseIcon": "<i class='fa-solid fa-recycle'></i>",
+      "courseImg": "../../Assets/Images/bg4.jpg"
+    },
+    {
+      "courseName": "C# and .NET Development",
+      "courseText": "Build enterprise software using .NET framework and other tools like c#",
+      "courseIcon": "<i class='fa-solid fa-chalkboard-user'></i>",
+      "courseImg": "../../Assets/Images/Blog4.jpeg"
+    },
+    {
+      "courseName": "Digital Marketing",
+      "courseText": "Learn how to turn prospect into repeated buyer",
+      "courseIcon": "<i class='fa-solid fa-earth-asia'></i>",
+      "courseImg": "../../Assets/Images/Blog1.jpeg"
+    },
+    {
+      "courseName": "Java Software Training",
+      "courseText": "Build scalable and enterprise application with Java",
+      "courseIcon": "<i class='fa-solid fa-chalkboard-user'></i>",
+      "courseImg": "../../Assets/Images/pics7.jpeg"
+    },
+    {
+      "courseName": "Data Engineering",
+      "courseText": "Learn how to work with big data, data pipeline, ETL and more",
+      "courseIcon": "<i class='fa-solid fa-gear'></i>",
+      "courseImg": "../../Assets/Images/bg12.jpg"
+    },
+    {
+      "courseName": "Acting And Drama",
+      "courseText": "There are many variations of passages orem psum available but the majority have suffer alteration in some form by injected.",
+      "courseIcon": "<i class='fa-brands fa-old-republic'></i>",
+      "courseImg": "../../Assets/Images/Acting.jpg"
+    },
+    {
+      "courseName": "Art And Design",
+      "courseText": "There are many variations of passages orem psum available but the majority have suffer alteration in some form by injected.",
+      "courseIcon": "<i class='fa-solid fa-biohazard'></i>",
+      "courseImg": "../../Assets/Images/Art.jpg"
+    },
+    {
+      "courseName": "Biology And Conservation",
+      "courseText": "There are many variations of passages orem psum available but the majority have suffer alteration in some form by injected.",
+      "courseIcon": "<i class='fa-solid fa-bed-pulse'></i>",
+      "courseImg": "../../Assets/Images/Biology.jpg"
+    },
+    {
+      "courseName": "Science And Engineering",
+      "courseText": "There are many variations of passages orem psum available but the majority have suffer alteration in some form by injected.",
+      "courseIcon": "<i class='fa-solid fa-gear'></i>",
+      "courseImg": "../../Assets/Images/science.jpg"
+    },
+    {
+      "courseName": "Health Administration",
+      "courseText": "There are many variations of passages orem psum available but the majority have suffer alteration in some form by injected.",
+      "courseIcon": "<i class='fa-solid fa-kit-medical'></i>",
+      "courseImg": "../../Assets/Images/health.jpg"
+    },
+    {
+      "courseName": "Accounting And Finance",
+      "courseText": "There are many variations of passages orem psum available but the majority have suffer alteration in some form by injected.",
+      "courseIcon": "<i class='fa-solid fa-sack-dollar'></i>",
+      "courseImg": "../../Assets/Images/accounting.jpg"
+    }
+  ],
+  "courseInfo": [
+    {
+      "icon": "<i class='fa-solid fa-bolt'></i>",
+      "name": "Science & Engineering",
+      "title": "Category"
+    },
+    {
+      "icon": "<i class='fa-solid fa-users'></i>",
+      "name": "50 Students",
+      "title": "Enrolled"
+    },
+    {
+      "icon": "<i class='fa-regular fa-clock'></i>",
+      "name": "04 Years",
+      "title": "Course Time"
+    },
+    {
+      "icon": "<i class='fa-solid fa-dollar-sign'></i>",
+      "name": "$20,000",
+      "title": "Course Fees"
+    }
+  ],
+  "courseFeature": [
+    {
+      "icon": "<i class='fa-solid fa-book-open'></i>",
+      "title": "Lectures",
+      "detail": "20"
+    },
+    {
+      "icon": "<i class='fa-solid fa-pencil'></i>",
+      "title": "Quizes",
+      "detail": "12"
+    },
+    {
+      "icon": "<i class='fa-regular fa-clock'></i>",
+      "title": "Duration",
+      "detail": "4 Years"
+    },
+    {
+      "icon": "<i class='fa-solid fa-globe'></i>",
+      "title": "  Language",
+      "detail": "English"
+    },
+    {
+      "icon": "<i class='fa-solid fa-fill-drip'></i>",
+      "title": "Skill Level",
+      "detail": "Basic"
+    },
+    {
+      "icon": "<i class='fa-solid fa-location-dot'></i>",
+      "title": "Location",
+      "detail": "On Campus"
+    },
+    {
+      "icon": "<i class='fa-solid fa-users'></i>",
+      "title": "Students",
+      "detail": "90"
+    },
+    {
+      "icon": "<i class='fa-solid fa-graduation-cap'></i>",
+      "title": "Certificate",
+      "detail": "Yes"
+    },
+    {
+      "icon": "<i class='fa-regular fa-circle-check'></i>",
+      "title": "Assessments",
+      "detail": "Yes"
+    }
+  ]
+}
