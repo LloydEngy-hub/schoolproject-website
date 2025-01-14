@@ -439,7 +439,6 @@ body {
 }
 
 /* the About us Section starts here */
-<<<<<<< HEAD
 
         /* About Background Section */
         .about-bg {
@@ -451,7 +450,7 @@ body {
           color: white;
           text-align: center;
       }
-=======
+
 .about-bg {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
     url(/src/Assets/Images/bg15.jpg);
@@ -489,14 +488,11 @@ body {
 .text-about h2 {
   font-size: 25px;
 }
->>>>>>> 89d71eabc8359b10d24e4a6e238895c021f75100
-
       .about-bg h2 {
           font-size: 2rem;
           animation: fadeInDown 3.5s ease;
       }
 
-<<<<<<< HEAD
       .about-bg h4 {
           font-size: 1.5rem;
       }
@@ -510,8 +506,7 @@ body {
           gap: 20px;
           justify-content: space-around;
       }
-=======
-.our-text {
+  .our-text {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -530,8 +525,6 @@ body {
   justify-self: center;
   font-family: sans-serif;
 }
->>>>>>> 89d71eabc8359b10d24e4a6e238895c021f75100
-
       .about-pic img {
           width: 100%;
           max-width: 400px;
@@ -542,7 +535,6 @@ body {
           line-height: 20px;
       }
 
-<<<<<<< HEAD
       .about-text2 {
           max-width: 600px;
           justify-items: flex-start;
@@ -811,7 +803,7 @@ body {
               transform: translateY(-10px);
           }
       }
-=======
+
 .services {
   margin-top: 50px;
   border: 1px solid red;
@@ -856,4 +848,3 @@ body {
   background-position: center;
   background-size: cover;
 }
->>>>>>> 89d71eabc8359b10d24e4a6e238895c021f75100
