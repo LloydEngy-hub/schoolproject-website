@@ -289,6 +289,623 @@
           </div>
         </div>
       </nav>
+ <ul class="sidebar-buttons">
+        <li>
+          <a href="#" data-section="dashboard-section"
+            ><i class="fas fa-tachometer-alt"></i> Dashboard</a
+          >
+        </li>
+        <li>
+          <a href="#" data-section="assignment-section"
+            ><i class="fas fa-book-open"></i> Assignment</a
+          >
+        </li>
+        <li>
+          <a href="#" data-section="syllabus-section"
+            ><i class="fas fa-file-alt"></i> Syllabus</a
+          >
+        </li>
+        <li>
+          <a href="#" data-section="chat-section"
+            ><i class="fas fa-comments"></i> Chat</a
+          >
+        </li>
+        <li>
+          <a href="#" data-section="attendance-section"
+            ><i class="fas fa-user-check"></i> Attendance</a
+          >
+        </li>
+        <li>
+          <a href="#" data-section="settings-section"
+            ><i class="fas fa-cogs"></i> Settings</a
+          >
+        </li>
+        <li>
+          <a href="#" data-section="logout-section"
+            ><i class="fas fa-sign-out-alt"></i> Logout</a
+          >
+        </li>
+      </ul>
+      <!-- main -->
+      <div class="dashboard-container">
+        <aside class="sidebar">
+          <ul class="sidebar-menu">
+            <li>
+              <a href="#" data-section="dashboard-section">
+                <i class="fas fa-tachometer-alt"></i> Dashboard
+              </a>
+            </li>
+            <li>
+              <a href="#" data-section="assignment-section">
+                <i class="fas fa-book-open"></i> Assignment
+              </a>
+            </li>
+            <li>
+              <a href="#" data-section="syllabus-section">
+                <i class="fas fa-file-alt"></i> Syllabus
+              </a>
+            </li>
+            <li>
+              <a href="#" data-section="chat-section">
+                <i class="fas fa-comments"></i> Chat
+              </a>
+            </li>
+            <li>
+              <a href="#" data-section="attendance-section">
+                <i class="fas fa-user-check"></i> Attendance
+              </a>
+            </li>
+            <li>
+              <a href="#" data-section="settings-section">
+                <i class="fas fa-cogs"></i> Settings
+              </a>
+            </li>
+            <li>
+              <a href="#" data-section="logout-section">
+                <i class="fas fa-sign-out-alt"></i> Logout
+              </a>
+            </li>
+          </ul>
+        </aside>
+        <div class="content">
+          <section id="dashboard-section">
+            <div class="first-container">
+              <div class="search-container">
+                <input
+                  type="text"
+                  placeholder="search..."
+                  class="search-input"
+                />
+                <i class="fas fa-search search-icon"></i>
+              </div>
+              <div class="profile-div">
+                <div class="notify"><i class="fas fa-bell bell"></i></div>
+
+                <div class="profile-image">
+                  <img
+                    src="../../Assets/Images/young-girl-with-pigtails_1308-176684.avif"
+                    alt="profile img"
+                    class="profile"
+                  />
+                </div>
+                <p><span id="user-name">Rikita!</span></p>
+              </div>
+            </div>
+            <div class="second-con">
+              <h2>Hello, <span id="user-name">Rikita!</span></h2>
+              <div class="small-container">
+                <div class="item">
+                  <p>Total Project <span>20/50</span></p>
+                  <img src="../../Assets/Images/project.png" alt="" />
+                </div>
+                <div class="item">
+                  <p>Attendance <span>70% </span></p>
+                  <img src="../../Assets/Images/attendance.png" alt="" />
+                </div>
+                <div class="item">
+                  <p>Mark scored <span>600/600</span></p>
+                  <img src="../../Assets/Images/qualification.png" alt="" />
+                </div>
+                <div class="item">
+                  <p>Leadership <span>3rd</span></p>
+                  <img
+                    src="../../Assets/Images/ethical-leadership.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <h2>Continue Watching</h2>
+            <div class="box-container">
+              <div class="box">
+                <img src="../../Assets/Images/man1.jpg" alt="" />
+                <b>Front End</b>
+                <p>Beginners guide to becoming a front end developer</p>
+              </div>
+              <div class="box">
+                <img src="../../Assets/Images/lady1.jpg" alt="" />
+                <b>UI/UX Designer</b>
+                <p>Optimizing users Experience with the best UI/UX design</p>
+              </div>
+              <div class="box">
+                <img
+                  src="../../Assets/Images/african-american-business-man-using-laptop-cafe_1303-15077.avif"
+                  alt=""
+                />
+                <b>Backend Developer</b>
+                <p>Bringing simplicity to a Beginner Backend develper</p>
+              </div>
+              <div class="box">
+                <img
+                  src="../../Assets/Images/calendar-27139310.webp"
+                  alt="Calendar"
+                />
+                <b>Calendar</b>
+                <p>Pick a date for your learning schedule</p>
+                <input type="text" id="datepicker" class="calendar-input" />
+              </div>
+            </div>
+            <div class="assignment-box">
+              <h3>My Assignment</h3>
+              <div class="typography">
+                <div class="first-assignment">
+                  <b>Python Test</b>
+                  <span>today 10:30am</span>
+                </div>
+                <div class="grade">
+                  <b>190/200</b> <span> Final Grade</span>
+                </div>
+                <div class="complete">Completed</div>
+              </div>
+
+              <div class="typography">
+                <div class="first-assignment">
+                  <b>Web Design Test</b>
+                  <span>today 10:30am</span>
+                </div>
+                <div class="grade">
+                  <b>192/200</b> <span> Final Grade</span>
+                </div>
+                <div class="complete">Completed</div>
+              </div>
+              <div class="typography">
+                <div class="first-assignment">
+                  <b>Javascript Test</b>
+                  <span>today 10:30am</span>
+                </div>
+                <div class="grade"><b>__/200</b> <span> Final Grade</span></div>
+                <div class="upcoming">Upcoming</div>
+              </div>
+            </div>
+            <div class="pending-box">
+              <div class="pend-title">
+                <h3>Pending Task</h3>
+                <button>View All</button>
+              </div>
+
+              <ul>
+                <li>
+                  50%
+                  <p>Styling with CSS</p>
+                  <span>12 tasks</span> <i class="fas fa-chevron-right"></i>
+                </li>
+                <li>
+                  65%
+                  <p>Logo Designing</p>
+                  <span>18 tasks</span><i class="fas fa-chevron-right"></i>
+                </li>
+                <li>
+                  87%
+                  <p>SEO Research</p>
+                  <span>22 tasks</span> <i class="fas fa-chevron-right"></i>
+                </li>
+              </ul>
+            </div>
+            <div class="schedule-box">
+              <div class="schedule-title">
+                <h3>Schedule</h3>
+                <button>View All</button>
+              </div>
+              <ul>
+                <li>
+                  <div class="circle"><i class="fas fa-laptop-code"></i></div>
+                  <p>Basic: HTML and CSS</p>
+                  <span>7:30-9:00</span>
+                  <i class="fas fa-chevron-right"></i>
+                </li>
+                <li>
+                  <div class="circle"><i class="fas fa-paint-brush"></i></div>
+                  <p>Design Branding</p>
+                  <span>9:00-10:00</span>
+                  <i class="fas fa-chevron-right"></i>
+                </li>
+                <li>
+                  <div class="circle"><i class="fas fa-chart-line"></i></div>
+                  <p>Digital SEO Marketing</p>
+                  <span>10:00-11:30</span>
+                  <i class="fas fa-chevron-right"></i>
+                </li>
+                <li>
+                  <div class="circle">
+                    <i class="fas fa-drafting-compass"></i>
+                  </div>
+                  <p>UI/UX Designing</p>
+                  <span>11:30-12:30</span>
+                  <i class="fas fa-chevron-right"></i>
+                </li>
+              </ul>
+            </div>
+            <!-- Your dashboard content here -->
+          </section>
+          <section id="assignment-section">
+            <div class="first-container">
+              <div class="search-container">
+                <input
+                  type="text"
+                  placeholder="search..."
+                  class="search-input"
+                />
+                <i class="fas fa-search search-icon"></i>
+              </div>
+              <div class="profile-div">
+                <div class="notify"><i class="fas fa-bell bell"></i></div>
+
+                <div class="profile-image">
+                  <img
+                    src="../../Assets/Images/young-girl-with-pigtails_1308-176684.avif"
+                    alt="profile img"
+                    class="profile"
+                  />
+                </div>
+                <p>Rikita Sharman</p>
+              </div>
+            </div>
+            <div class="assignment-box">
+              <h3>My Assignment</h3>
+              <div class="typography">
+                <div class="first-assignment">
+                  <b>Typography Test</b>
+                  <span>today 10:30am</span>
+                </div>
+                <div class="grade">
+                  <b>190/200</b> <span> Final Grade</span>
+                </div>
+                <div class="complete">Completed</div>
+              </div>
+
+              <div class="typography">
+                <div class="first-assignment">
+                  <b>Inclusive Design Test</b>
+                  <span>today 10:30am</span>
+                </div>
+                <div class="grade">
+                  <b>192/200</b> <span> Final Grade</span>
+                </div>
+                <div class="complete">Completed</div>
+              </div>
+              <div class="typography">
+                <div class="first-assignment">
+                  <b>Typography Test</b>
+                  <span>today 10:30am</span>
+                </div>
+                <div class="grade"><b>__/200</b> <span> Final Grade</span></div>
+                <div class="upcoming">Upcoming</div>
+              </div>
+            </div>
+            <!-- Your assignment content here -->
+          </section>
+          <section id="syllabus-section">
+            <div class="first-container">
+              <div class="search-container">
+                <input
+                  type="text"
+                  placeholder="search..."
+                  class="search-input"
+                />
+                <i class="fas fa-search search-icon"></i>
+              </div>
+              <div class="profile-div">
+                <div class="notify"><i class="fas fa-bell bell"></i></div>
+
+                <div class="profile-image">
+                  <img
+                    src="../../Assets/Images/young-girl-with-pigtails_1308-176684.avif"
+                    alt="profile img"
+                    class="profile"
+                  />
+                </div>
+                <p>Rikita Sharman</p>
+              </div>
+            </div>
+            <b>Home/Syllabus</b>
+            <div class="syllabus-container">
+              <div class="item-box">
+                <img src="../../Assets/Images/pics1.jpeg" alt="" />
+                <p>Front End Development</p>
+                <span>30+ Examples 12 Assignment</span>
+                <button type="submit" class="download">Download PDF</button>
+              </div>
+              <div class="item-box">
+                <img src="../../Assets/Images/pics7.jpeg" alt="" />
+                <p>Backend Development</p>
+                <span>30+ Examples 12 Assignment</span>
+                <button type="submit" class="download">Download PDF</button>
+              </div>
+              <div class="item-box">
+                <img src="../../Assets/Images/pics5.jpeg" alt="" />
+                <p>UI/UX Designer</p>
+                <span>30+ Examples 12 Assignment</span>
+                <button type="submit" class="download">Download PDF</button>
+              </div>
+              <div class="item-box">
+                <img src="../../Assets/Images/Blog2.jpeg" alt="" />
+                <p>Cyber Security</p>
+                <span>30+ Examples 12 Assignment</span>
+                <button type="submit" class="download">Download PDF</button>
+              </div>
+              <div class="item-box">
+                <img src="../../Assets/Images/Blog3.jpeg" alt="" />
+                <p>Data Science</p>
+                <span>30+ Examples 12 Assignment</span>
+                <button type="submit" class="download">Download PDF</button>
+              </div>
+              <div class="item-box">
+                <img src="../../Assets/Images/Landing-Page.bg.jpeg" alt="" />
+                <p>Software Development(Python)</p>
+                <span>30+ Examples 12 Assignment</span>
+                <button type="submit" class="download">Download PDF</button>
+              </div>
+            </div>
+            <!-- Your syllabus content here -->
+          </section>
+          <section id="chat-section">
+            <div class="first-container">
+              <div class="search-container">
+                <input
+                  type="text"
+                  placeholder="search..."
+                  class="search-input"
+                />
+                <i class="fas fa-search search-icon"></i>
+              </div>
+              <div class="profile-div">
+                <div class="notify"><i class="fas fa-bell bell"></i></div>
+
+                <div class="profile-image">
+                  <img
+                    src="../../Assets/Images/young-girl-with-pigtails_1308-176684.avif"
+                    alt="profile img"
+                    class="profile"
+                  />
+                </div>
+                <p>Rikita Sharman</p>
+              </div>
+            </div>
+            <div class="chat-container">
+              <div id="chat-list">
+                <div class="chat-user">
+                  <div class="user-info">
+                    <span class="user-name">User1</span>
+                    <span class="last-message">Hello!</span>
+                  </div>
+                  <div class="message-info">
+                    <span class="message-time">10:30 AM</span>
+                    <span class="typing-status">Typing...</span>
+                  </div>
+                </div>
+                <!-- Add more chat-user divs as needed -->
+              </div>
+
+              <div id="chat-conversation">
+                <div class="chat-message receiver">
+                  <span class="message-content">Hi, how are you?</span>
+                </div>
+                <div class="chat-message sender">
+                  <span class="message-content">I'm good, thank you!</span>
+                </div>
+                <!-- Add more messages as needed -->
+                <div id="chat-input">
+                  <input
+                    type="text"
+                    id="message"
+                    placeholder="Type your message here..."
+                  />
+                  <button id="send-button">Send</button>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="attendance-section">
+            <h2>Student Attendance</h2>
+            <div id="attendance-table">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Student Name</th>
+                    <th>Class</th>
+                    <th>Date</th>
+                    <th>Status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>John Doe</td>
+                    <td>Grade 10</td>
+                    <td>2025-01-12</td>
+                    <td><span class="status present">Present</span></td>
+                  </tr>
+                  <tr>
+                    <td>Jane Smith</td>
+                    <td>Grade 10</td>
+                    <td>2025-01-12</td>
+                    <td><span class="status absent">Absent</span></td>
+                  </tr>
+                  <tr>
+                    <td>Emily Johnson</td>
+                    <td>Grade 10</td>
+                    <td>2025-01-12</td>
+                    <td><span class="status present">Present</span></td>
+                  </tr>
+                  <tr>
+                    <td>Michael Brown</td>
+                    <td>Grade 10</td>
+                    <td>2025-01-12</td>
+                    <td><span class="status present">Present</span></td>
+                  </tr>
+                  <tr>
+                    <td>Sarah Wilson</td>
+                    <td>Grade 10</td>
+                    <td>2025-01-12</td>
+                    <td><span class="status absent">Absent</span></td>
+                  </tr>
+                  <tr>
+                    <td>David Lee</td>
+                    <td>Grade 10</td>
+                    <td>2025-01-12</td>
+                    <td><span class="status present">Present</span></td>
+                  </tr>
+                  <tr>
+                    <td>Laura Martinez</td>
+                    <td>Grade 10</td>
+                    <td>2025-01-12</td>
+                    <td><span class="status present">Present</span></td>
+                  </tr>
+                  <tr>
+                    <td>James Taylor</td>
+                    <td>Grade 10</td>
+                    <td>2025-01-12</td>
+                    <td><span class="status absent">Absent</span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+          <section id="settings-section">
+            <h2>Settings</h2>
+            <div class="settings-container">
+              <div class="settings-category">
+                <h3>Profile Settings</h3>
+                <form id="profile-form" action="/update-profile" method="POST">
+                  <label for="full-name">Full Name:</label>
+                  <input
+                    type="text"
+                    id="full-name"
+                    name="full-name"
+                    placeholder="Enter full name"
+                    required
+                  />
+
+                  <label for="dob">Date of Birth:</label>
+                  <input type="date" id="dob" name="dob" required />
+
+                  <label for="email">Email Address:</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter email"
+                    required
+                  />
+
+                  <label for="password">New Password:</label>
+                  <input
+                    type="password"
+                    id="password"
+                    name="password"
+                    placeholder="Enter new password"
+                    required
+                  />
+
+                  <button type="submit">Save Changes</button>
+                </form>
+              </div>
+
+              <!-- Course Preferences -->
+              <div class="settings-category">
+                <h3>Course Preferences</h3>
+                <form id="courses-form" action="/update-courses" method="POST">
+                  <label for="courses">Current Courses:</label>
+                  <select id="courses" name="courses[]" required>
+                    <option value="cs101">
+                      Introduction to Computer Science
+                    </option>
+                    <option value="cs102">Data Structures</option>
+                    <option value="cs201">Algorithms</option>
+                    <option value="cs202">Operating Systems</option>
+                    <option value="cs301">Database Systems</option>
+                    <option value="cs302">Software Engineering</option>
+                    <option value="cs303">Computer Networks</option>
+                    <option value="cs304">Artificial Intelligence</option>
+                    <option value="cs305">Machine Learning</option>
+                    <option value="cs306">Cybersecurity</option>
+                    <option value="cs401">Human-Computer Interaction</option>
+                    <option value="cs402">Web Development</option>
+                    <option value="cs403">
+                      Mobile Application Development
+                    </option>
+                    <option value="cs404">Cloud Computing</option>
+                    <option value="cs405">Big Data Analytics</option>
+                  </select>
+
+                  <button type="submit">Update Courses</button>
+                </form>
+              </div>
+
+              <!-- Notification Preferences -->
+              <div class="settings-category">
+                <h3>Notification Settings</h3>
+                <form
+                  id="notifications-form"
+                  action="/update-notifications"
+                  method="POST"
+                >
+                  <label for="email-notifications">
+                    <input
+                      type="checkbox"
+                      id="email-notifications"
+                      name="email-notifications"
+                    />
+                    Email Notifications
+                  </label>
+
+                  <label for="sms-notifications">
+                    <input
+                      type="checkbox"
+                      id="sms-notifications"
+                      name="sms-notifications"
+                    />
+                    SMS Notifications
+                  </label>
+
+                  <button type="submit">Update Notifications</button>
+                </form>
+              </div>
+            </div>
+            <!-- Your settings content here -->
+          </section>
+          <section id="logout-section">
+            <h2>Logout</h2>
+            <div class="logout-container">
+              <p>Are you sure you want to logout?</p>
+              <div class="user-info">
+                <p>
+                  <strong>User:</strong> <span id="user-name">John Doe</span>
+                </p>
+                <p>
+                  <strong>Email:</strong>
+                  <span id="user-email">john.doe@example.com</span>
+                </p>
+              </div>
+              <div class="logout-actions">
+                <button id="confirm-logout" class="logout-button">
+                  Confirm Logout
+                </button>
+                <button id="cancel-logout" class="cancel-button">Cancel</button>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
 
       <!-- =============================================== -->
       <!-- footer container -->

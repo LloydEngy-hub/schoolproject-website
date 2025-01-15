@@ -289,6 +289,169 @@
           </div>
         </div>
       </nav>
+ <!-- ernrollment form -->
+      <h1>Tekk Bridge Admissions Form</h1>
+      <p class="ptag">Enter your admission information below</p>
+      <form action="../DashboardPage/index.html">
+        <fieldset class="name">
+          <legend>Name</legend>
+          <label for="firstname">First Name</label>
+          <input type="text" name="firstname" id="firstname" required /> <br />
+          <label for="middlename">Middle Name</label>
+          <input type="text" name="middlename" required /> <br />
+          <label for="lastname">Last Name</label>
+          <input type="text" name="lastname" required />
+        </fieldset>
+        <fieldset>
+          <legend>Birth Date</legend>
+          <label for="month">Month:</label>
+          <select name="month" id="month" required>
+            <option value="">Please select a month</option>
+          </select>
+          <label for="date">Date:</label>
+          <select name="date" id="date" required>
+            <option value="">Please select a day</option>
+          </select>
+          <label for="year">Year:</label>
+          <select name="year" id="year" required>
+            <option value="">Please select a year</option>
+          </select>
+        </fieldset>
+        <fieldset class="gender">
+          <legend>Gender</legend>
+          <input type="radio" id="male" name="gender" value="Male" required />
+          <label for="male">Male</label>
+
+          <input type="radio" id="female" name="gender" value="Female" />
+          <label for="female">Female</label>
+          <input type="radio" name="other" id="other" />
+          <label for="others">Others</label>
+        </fieldset>
+        <fieldset>
+          <legend>Select Courses</legend>
+          <label for="courses">Courses:</label>
+          <select id="courses" name="courses[]" required>
+            <option value="cs101">Introduction to Computer Science</option>
+            <option value="cs102">Data Structures</option>
+            <option value="cs201">Algorithms</option>
+            <option value="cs202">Operating Systems</option>
+            <option value="cs301">Database Systems</option>
+            <option value="cs302">Software Engineering</option>
+            <option value="cs303">Computer Networks</option>
+            <option value="cs304">Artificial Intelligence</option>
+            <option value="cs305">Machine Learning</option>
+            <option value="cs306">Cybersecurity</option>
+            <option value="cs401">Human-Computer Interaction</option>
+            <option value="cs402">Web Development</option>
+            <option value="cs403">Mobile Application Development</option>
+            <option value="cs404">Cloud Computing</option>
+            <option value="cs405">Big Data Analytics</option>
+          </select>
+        </fieldset>
+        <label for="citizenship">Of which country are you a citizen?</label>
+        <select id="citizenship" name="citizenship" required>
+          <option value="">Please Select</option>
+          <!-- Add country options --></select
+        ><br />
+
+        <label for="phone">Phone:</label>
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          placeholder="(000) 000-0000"
+          required
+        /><br />
+
+        <label for="email">E-mail Address:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="example@example.com"
+          required
+        /><br />
+        <fieldset>
+          <legend>Mailing Address</legend>
+          <label for="street_address">Street Address:</label>
+          <input
+            type="text"
+            id="street_address"
+            name="street_address"
+            required
+          /><br />
+
+          <label for="street_address_2">Street Address Line 2:</label>
+          <input
+            type="text"
+            id="street_address_2"
+            name="street_address_2"
+          /><br />
+
+          <label for="city">City:</label>
+          <input type="text" id="city" name="city" required /><br />
+
+          <label for="state">State / Province:</label>
+          <input type="text" id="state" name="state" required /><br />
+
+          <label for="zip_code">Postal / Zip Code:</label>
+          <input type="text" id="zip_code" name="zip_code" required /><br />
+        </fieldset>
+        <fieldset>
+          <legend>Emergency Contact</legend>
+          <label for="emergency_first_name">First Name:</label>
+          <input
+            type="text"
+            id="emergency_first_name"
+            name="emergency_first_name"
+            required
+          /><br />
+
+          <label for="emergency_last_name">Last Name:</label>
+          <input
+            type="text"
+            id="emergency_last_name"
+            name="emergency_last_name"
+            required
+          /><br />
+
+          <label for="relationship">Relationship:</label>
+          <input
+            type="text"
+            id="relationship"
+            name="relationship"
+            required
+          /><br />
+
+          <label for="emergency_email">Email:</label>
+          <input
+            type="email"
+            id="emergency_email"
+            name="emergency_email"
+            placeholder="example@example.com"
+            required
+          /><br />
+
+          <label for="emergency_phone">Phone Number:</label>
+          <input
+            type="tel"
+            id="emergency_phone"
+            name="emergency_phone"
+            placeholder="(000) 000-0000"
+            required
+          /><br />
+        </fieldset>
+        <label for="other_language"
+          >Do you speak any other language other than English?</label
+        >
+        <div class="agree">
+          <input type="radio" name="yes" id="yes" />
+          <label for="yes">Yes</label>
+          <input type="radio" name="no" id="no" />
+          <label for="no">No</label>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
 
       <!-- =============================================== -->
       <!-- footer container -->
