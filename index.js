@@ -170,7 +170,72 @@ const TeacherApi = async () => {
   our_teacher_container.innerHTML = displayContent;
 };
 
+// ========================================================
+// testimony element
+const testimony_container = document.querySelector(".testimonies_container");
+
+const showTestimony = async () => {
+  const resp = await fetch("./LocalApi.json");
+  const { Testimonies } = await resp.json();
+
+  const displayTestimony = Testimonies.map(
+    ({ stars, testimony, picture, name, student }) => {
+      return `
+      
+      <div class="testimony_container">
+              <!-- =============================================== -->
+              <!-- star container -->
+              <div class="star_container">
+
+              ${stars
+                .map(() => {
+                  return `<i class="fa-solid fa-star"></i>`;
+                })
+                .join("")}
+                
+              </div>
+
+              <!-- =============================================== -->
+              <!-- our student testimony -->
+              <p class="our_student_testimony">
+                As a parent, it’s comforting to see how much my child loves
+                going to school every day. The teachers are approachable, and
+                the curriculum is challenging yet supportive. We couldn’t be
+                happier.
+              </p>
+
+              <!-- =============================================== -->
+              <!-- student details container -->
+              <div class="student_details_container">
+                <!-- =============================================== -->
+                <!-- student profile -->
+                <img
+                  src="./src/Assets/Images/emma.jpg"
+                  alt="student_profile"
+                  class="student_profile"
+                />
+
+                <!-- =============================================== -->
+                <!-- student details -->
+                <div class="student_details">
+                  <!-- =============================================== -->
+                  <!-- students name -->
+                  <h3 class="student_name">Emma W.</h3>
+
+                  <!-- =============================================== -->
+                  <!-- student -->
+                  <h4 class="student">Student</h4>
+                </div>
+              </div>
+            </div>
+      `;
+    }
+  ).join("");
+  testimony_container.innerHTML = displayTestimony;
+};
+
 window.addEventListener("DOMContentLoaded", () => {
   localData();
   TeacherApi();
+  showTestimony();
 });
