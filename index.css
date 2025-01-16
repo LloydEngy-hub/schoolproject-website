@@ -579,6 +579,87 @@ body {
 }
 
 /* ================================================ */
+/* offer container*/
+.offer_container {
+  display: flex;
+  margin: 5rem 0;
+
+  align-items: center;
+  justify-content: center;
+  background: url("./src/Assets/Images/offer.jpg") center/cover, no-repeat;
+}
+
+/* ================================================ */
+/* offer*/
+.offer {
+  bottom: 0;
+  width: 96%;
+  display: flex;
+  padding: 0.5rem;
+  align-items: center;
+  border-radius: 70px;
+  background-color: #fda318;
+  border-bottom-left-radius: 0;
+}
+
+/* ================================================ */
+/* white line*/
+.white_line {
+  padding: 0.3rem;
+  border-radius: 60px;
+  border: 4px solid white;
+  border-bottom-left-radius: 0;
+}
+
+/* ================================================ */
+/* white lines*/
+.white_lines {
+  gap: 1rem;
+  display: flex;
+  color: white;
+  padding: 4rem 1rem;
+  border-radius: 50px;
+  flex-direction: column;
+  border: 4px solid white;
+  border-bottom-left-radius: 0;
+}
+
+/* ================================================ */
+/* offer title*/
+.offer_title {
+  font-weight: 900;
+  font-size: 2.6rem;
+}
+
+/* ================================================ */
+/* offer text*/
+.offer_text {
+  font-weight: 500;
+  line-height: 2rem;
+  font-size: 1.15rem;
+}
+
+/* ================================================ */
+/* offer btn*/
+.offer_btn {
+  padding: 1rem;
+  cursor: pointer;
+  font-weight: 800;
+  font-size: 0.9rem;
+  width: max-content;
+  border-radius: 50px;
+  transition: all 1s linear;
+  text-transform: uppercase;
+  background-color: white;
+  border-bottom-left-radius: 0;
+}
+
+.offer_btn:hover {
+  color: white;
+  background-color: #116e63;
+}
+
+/* ================================================ */
 /*  testimonies*/
 .testimonies {
   gap: 1.2rem;
@@ -1300,6 +1381,37 @@ body {
   }
 
   /* ================================================ */
+  /* offer container*/
+  .offer_container {
+    padding-right: 4rem;
+    justify-content: end;
+  }
+
+  /* ================================================ */
+  /* offer*/
+  .offer {
+    width: 38%;
+  }
+
+  /* ================================================ */
+  /* offer title*/
+  .offer_title {
+    font-size: 2.3rem;
+  }
+
+  /* ================================================ */
+  /* offer text*/
+  .offer_text {
+    font-size: 1rem;
+  }
+
+  /* ================================================ */
+  /* white lines*/
+  .white_lines {
+    gap: 1.6rem;
+  }
+
+  /* ================================================ */
   /* our student title*/
   .our_students_title {
     font-size: 2.6rem;
@@ -1325,16 +1437,16 @@ body {
   }
 
   /* ================================================ */
-/* student name*/
-.student_name {
-  font-size: 1rem;
-}
+  /* student name*/
+  .student_name {
+    font-size: 1rem;
+  }
 
-/* ================================================ */
-/* student*/
-.student {
-  font-size: 0.9rem;
-}
+  /* ================================================ */
+  /* student*/
+  .student {
+    font-size: 0.9rem;
+  }
 }
 
 /* ======================================================= */
