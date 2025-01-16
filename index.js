@@ -198,10 +198,7 @@ const showTestimony = async () => {
               <!-- =============================================== -->
               <!-- our student testimony -->
               <p class="our_student_testimony">
-                As a parent, it’s comforting to see how much my child loves
-                going to school every day. The teachers are approachable, and
-                the curriculum is challenging yet supportive. We couldn’t be
-                happier.
+               ${testimony}
               </p>
 
               <!-- =============================================== -->
@@ -210,7 +207,7 @@ const showTestimony = async () => {
                 <!-- =============================================== -->
                 <!-- student profile -->
                 <img
-                  src="./src/Assets/Images/emma.jpg"
+                  src=${picture}
                   alt="student_profile"
                   class="student_profile"
                 />
@@ -220,11 +217,11 @@ const showTestimony = async () => {
                 <div class="student_details">
                   <!-- =============================================== -->
                   <!-- students name -->
-                  <h3 class="student_name">Emma W.</h3>
+                  <h3 class="student_name">${name}</h3>
 
                   <!-- =============================================== -->
                   <!-- student -->
-                  <h4 class="student">Student</h4>
+                  <h4 class="student">${student}</h4>
                 </div>
               </div>
             </div>
