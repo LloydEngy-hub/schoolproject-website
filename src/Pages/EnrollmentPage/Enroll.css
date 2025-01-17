@@ -212,7 +212,7 @@ body {
 }
 
 .footer_link:hover {
-  color: #fda31b;
+  color: orangered;
 }
 
 /* ================================================ */
@@ -225,7 +225,7 @@ body {
   border-radius: 10px;
   align-items: center;
   justify-content: center;
-  background-color: #fda31b;
+  background-color: orangered;
   border-bottom-left-radius: 0;
 }
 
@@ -236,7 +236,7 @@ body {
 /* ================================================ */
 /* play icon*/
 .fa-play {
-  color: #fda31b;
+  color: blue;
   font-size: 0.8rem;
 }
 
@@ -246,7 +246,7 @@ body {
   width: max-content;
   font-size: 1.3rem;
   padding-block: 1rem;
-  border-bottom: 3px dotted #fda31b;
+  border-bottom: 3px dotted orangered;
 }
 
 /* ================================================ */
@@ -254,34 +254,39 @@ body {
 .footer_form {
   gap: 1rem;
   display: flex;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
   flex-direction: column;
+  background-color: transparent !important;
 }
 
 /* ================================================ */
 /* email input */
 .email_input {
-  padding: 1rem;
-  font-weight: 600;
-  font-size: 1.1rem;
-  border-radius: 10px;
+  width: 100% !important;
+  padding: 1rem !important;
+  font-weight: 600 !important;
+  font-size: 1.1rem !important;
+  border-radius: 10px !important;
 }
 
 /* ================================================ */
 /* submit form */
 .submit_form {
-  padding: 1rem;
-  color: white;
   cursor: pointer;
-  font-weight: 600;
-  font-size: 1.1rem;
-  border-radius: 10px;
-  transition: 1s all linear;
-  background-color: #fda31b;
+  padding: 1rem !important;
+  font-weight: 600 !important;
+  font-size: 1.1rem !important;
+  border-radius: 10px !important;
+  transition: 1s all linear !important;
+  color: white !important;
+  background-color: orangered !important;
 }
 
 .submit_form:hover {
-  color: #fda31b;
-  background-color: white;
+  color: orangered !important;
+  background-color: white !important;
 }
 
 /* ================================================ */
@@ -304,7 +309,7 @@ body {
 }
 
 .orange {
-  color: #fda31b;
+  color: orangered;
 }
 
 /* ================================================ */
@@ -320,7 +325,7 @@ body {
   width: 40px;
   height: 40px;
   display: flex;
-  color: #fda31b;
+  color: blue;
   font-size: 1.2rem;
   align-items: center;
   border-radius: 10px;
@@ -454,7 +459,8 @@ h1 {
   color: #555;
 }
 
- form p ,.ptag{
+form p,
+.ptag {
   text-align: center;
   color: #777;
 }
@@ -533,4 +539,3 @@ button[type="submit"]:hover {
   gap: 10px;
   justify-content: space-around;
 }
-

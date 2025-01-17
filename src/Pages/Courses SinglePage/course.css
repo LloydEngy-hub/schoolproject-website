@@ -161,7 +161,7 @@ body {
 .course_link_home {
   gap: 0.8rem;
   display: flex;
-  color: #fda31b;
+  color: orangered;
   font-size: 1.15rem;
   align-items: center;
 }
@@ -254,7 +254,7 @@ body {
 .select {
   gap: 1rem;
   display: flex;
-  color: #fda31b;
+  color: orangered;
   align-items: center;
 }
 
@@ -291,7 +291,7 @@ body {
   font-weight: 900;
   font-size: 1.4rem;
   width: max-content;
-  border-bottom: 3px dotted #fda31b;
+  border-bottom: 3px dotted orangered;
 }
 
 /* ================================================ */
@@ -325,12 +325,12 @@ body {
   width: 65px;
   height: 65px;
   display: flex;
-  color: #fda31b;
+  color: orangered;
   font-size: 1.2rem;
   border-radius: 50%;
   align-items: center;
   justify-content: center;
-  border: 3px solid #fda31b;
+  border: 3px solid orangered;
 }
 
 /* ================================================ */
@@ -368,12 +368,12 @@ body {
   border-radius: 30px;
   transition: 1s all linear;
   text-transform: uppercase;
-  background-color: #fda31b;
+  background-color: orangered;
   border-bottom-left-radius: 0;
 }
 
 .enroll_btn:hover {
-  background-color: #116e63;
+  background-color: blue;
 }
 
 /* ================================================ */
@@ -411,7 +411,7 @@ body {
 .feature_name {
   gap: 1rem;
   display: flex;
-  color: #fda31b;
+  color: orangered;
   font-weight: 900;
   font-size: 0.9rem;
   align-items: center;
@@ -501,7 +501,7 @@ body {
 }
 
 .footer_link:hover {
-  color: #fda31b;
+  color: orangered;
 }
 
 /* ================================================ */
@@ -514,7 +514,7 @@ body {
   border-radius: 10px;
   align-items: center;
   justify-content: center;
-  background-color: #fda31b;
+  background-color: orangered;
   border-bottom-left-radius: 0;
 }
 
@@ -525,7 +525,7 @@ body {
 /* ================================================ */
 /* play icon*/
 .fa-play {
-  color: #fda31b;
+  color: blue;
   font-size: 0.8rem;
 }
 
@@ -535,7 +535,7 @@ body {
   width: max-content;
   font-size: 1.3rem;
   padding-block: 1rem;
-  border-bottom: 3px dotted #fda31b;
+  border-bottom: 3px dotted orangered;
 }
 
 /* ================================================ */
@@ -565,11 +565,11 @@ body {
   font-size: 1.1rem;
   border-radius: 10px;
   transition: 1s all linear;
-  background-color: #fda31b;
+  background-color: orangered;
 }
 
 .submit_form:hover {
-  color: #fda31b;
+  color: orangered;
   background-color: white;
 }
 
@@ -593,7 +593,7 @@ body {
 }
 
 .orange {
-  color: #fda31b;
+  color: orangered;
 }
 
 /* ================================================ */
@@ -609,7 +609,7 @@ body {
   width: 40px;
   height: 40px;
   display: flex;
-  color: #fda31b;
+  color: blue;
   font-size: 1.2rem;
   align-items: center;
   border-radius: 10px;

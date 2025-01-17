@@ -161,7 +161,7 @@ body {
 .course_link_home {
   gap: 0.8rem;
   display: flex;
-  color: #fda31b;
+  color: orangered;
   font-size: 1.15rem;
   align-items: center;
 }
@@ -278,10 +278,10 @@ body {
   display: flex;
   color: white;
   font-size: 1.5rem;
+  background: blue;
   position: absolute;
   align-items: center;
   border-radius: 10px;
-  background: #de0e7b;
   justify-content: center;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
@@ -307,9 +307,9 @@ body {
   width: 90%;
   gap: 0.5rem;
   display: flex;
+  color: blue;
   margin-top: auto;
   font-weight: 700;
-  color: #de0e7b;
   font-size: 0.9rem;
   align-items: center;
   transition: 1s all linear;
@@ -317,7 +317,7 @@ body {
 }
 
 .read_more:hover {
-  color: black;
+  color: orangered;
 }
 
 /* ================================================ */
@@ -391,7 +391,7 @@ body {
 }
 
 .footer_link:hover {
-  color: #fda31b;
+  color: orangered;
 }
 
 /* ================================================ */
@@ -404,7 +404,7 @@ body {
   border-radius: 10px;
   align-items: center;
   justify-content: center;
-  background-color: #fda31b;
+  background-color: orangered;
   border-bottom-left-radius: 0;
 }
 
@@ -415,7 +415,7 @@ body {
 /* ================================================ */
 /* play icon*/
 .fa-play {
-  color: #fda31b;
+  color: blue;
   font-size: 0.8rem;
 }
 
@@ -425,7 +425,7 @@ body {
   width: max-content;
   font-size: 1.3rem;
   padding-block: 1rem;
-  border-bottom: 3px dotted #fda31b;
+  border-bottom: 3px dotted orangered;
 }
 
 /* ================================================ */
@@ -455,11 +455,11 @@ body {
   font-size: 1.1rem;
   border-radius: 10px;
   transition: 1s all linear;
-  background-color: #fda31b;
+  background-color: orangered;
 }
 
 .submit_form:hover {
-  color: #fda31b;
+  color: orangered;
   background-color: white;
 }
 
@@ -483,7 +483,7 @@ body {
 }
 
 .orange {
-  color: #fda31b;
+  color: orangered;
 }
 
 /* ================================================ */
@@ -499,7 +499,7 @@ body {
   width: 40px;
   height: 40px;
   display: flex;
-  color: #fda31b;
+  color: blue;
   font-size: 1.2rem;
   align-items: center;
   border-radius: 10px;
