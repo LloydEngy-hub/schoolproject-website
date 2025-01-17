@@ -3,7 +3,7 @@
     {
       "name": "Angela T. Vigil",
       "course": "Associate Professor",
-      "profile": "./src/Assets/Images/Angela.jpg",
+      "profile": "./src/Assets/Images/Angela.jpeg",
       "icon": [
         "<i class='fa-brands fa-facebook-f'></i>",
         "<i class='fa-brands fa-whatsapp'></i>",
@@ -14,7 +14,7 @@
     {
       "name": "Frank A. Mitchell",
       "course": "Associate Professor",
-      "profile": "./src/Assets/Images/Frank.jpg",
+      "profile": "./src/Assets/Images/Frank.jpeg",
       "icon": [
         "<i class='fa-brands fa-facebook-f'></i>",
         "<i class='fa-brands fa-whatsapp'></i>",
