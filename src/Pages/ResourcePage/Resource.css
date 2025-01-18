@@ -164,11 +164,11 @@ header h1 {
 
 }
 header{
-  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/img/pics8.jpg);
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/src/Assets/Images/bg9.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   min-height: 60vh;
 
 }
@@ -236,7 +236,7 @@ footer {
 
 @media (max-width: 768px) {
   header h1 {
-      font-size: 1.5rem;
+      font-size: 1rem;
   }
 }
 /* the resourse styling ends here */
