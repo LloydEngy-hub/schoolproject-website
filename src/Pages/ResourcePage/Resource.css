@@ -152,26 +152,25 @@ body {
   margin: 0;
 }
 
-.hear-text{
+.hear-text {
   /* background-color: #6200ea; */
   color: white;
   padding: 1.5rem 0;
-  text-align: center
+  text-align: center;
 }
 
 header h1 {
   font-size: 3rem;
   margin-top: 70px;
-
 }
-header{
-  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/src/Assets/Images/bg9.jpg);
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../../Assets/Images/bg9.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   /* background-attachment: fixed; */
   min-height: 60vh;
-
 }
 
 .container {
@@ -189,7 +188,8 @@ header{
   color: #6200ea;
 }
 
-.blogs, .news {
+.blogs,
+.news {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1.5rem;
@@ -237,7 +237,7 @@ footer {
 
 @media (max-width: 768px) {
   header h1 {
-      font-size: 1rem;
+    font-size: 1rem;
   }
 }
 /* the resourse styling ends here */
