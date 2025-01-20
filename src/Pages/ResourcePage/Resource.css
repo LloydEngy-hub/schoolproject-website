@@ -39,6 +39,7 @@ body {
 .nav_container {
   top: 0;
   width: 97%;
+  z-index: 999;
   position: fixed;
   overflow: hidden;
   padding: 0.5rem 0;
