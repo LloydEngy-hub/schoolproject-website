@@ -165,10 +165,8 @@ header h1 {
 }
 header {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../../Assets/Images/bg9.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    url("../../Assets/Images/bg9.jpg") center/cover,no-repeat;
+  
   /* background-attachment: fixed; */
   min-height: 60vh;
 }
