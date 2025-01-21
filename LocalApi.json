@@ -1,7 +1,7 @@
 {
   "ourTeachers": [
     {
-      "name": "Angela T. Vigil",
+      "name": "Chinedu Esther",
       "course": "Associate Professor",
       "profile": "./src/Assets/Images/Angela.jpeg",
       "icon": [
@@ -12,7 +12,7 @@
       ]
     },
     {
-      "name": "Frank A. Mitchell",
+      "name": " Nwoke Thelma",
       "course": "Associate Professor",
       "profile": "./src/Assets/Images/Frank.jpeg",
       "icon": [
@@ -25,7 +25,7 @@
     {
       "name": "Dennis A. Pruitt",
       "course": "Associate Professor",
-      "profile": "./src/Assets/Images/Dennis.jpg",
+      "profile": "./src/Assets/Images/Dennis.jpeg",
       "icon": [
         "<i class='fa-brands fa-facebook-f'></i>",
         "<i class='fa-brands fa-whatsapp'></i>",
@@ -34,7 +34,7 @@
       ]
     },
     {
-      "name": "Susan D. Lunsford",
+      "name": "Nwoke Thelma",
       "course": "CEO & Founder",
       "profile": "./src/Assets/Images/Susan.jpg",
       "icon": [
