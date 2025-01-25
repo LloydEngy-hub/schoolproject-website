@@ -2,7 +2,7 @@
   "ourTeachers": [
     {
       "name": "Chinedu Esther",
-      "course": "Associate Professor",
+      "course": "CEO & Founder",
       "profile": "./src/Assets/Images/Angela.jpeg",
       "icon": [
         "<i class='fa-brands fa-facebook-f'></i>",
@@ -34,8 +34,8 @@
       ]
     },
     {
-      "name": "Nwoke Thelma",
-      "course": "CEO & Founder",
+      "name": "John Chukwu ",
+      "course": "Associate Professor",
       "profile": "./src/Assets/Images/Susan.jpg",
       "icon": [
         "<i class='fa-brands fa-facebook-f'></i>",
